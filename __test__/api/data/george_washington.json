@@ -1,0 +1,401 @@
+[
+  {
+    "meta": {
+      "id": "Washington:b2",
+      "uuid": "b2e168db-0b76-464c-a11b-e38b3674d57d",
+      "sort": "305948000",
+      "src": "collegiate",
+      "section": "biog",
+      "stems": [
+        "George Washington",
+        "Washington",
+        "Washingtonian"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "Washington"
+    },
+    "fl": "biographical name",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "George 1732–1799 American general; 1st president of the U.S. (1789–97)"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "uros": [
+      {
+        "ure": "Wash*ing*to*nian",
+        "prs": [
+          {
+            "mw": "ˌwȯ-shiŋ-ˈtō-nē-ən",
+            "sound": {
+              "audio": "bixwas04",
+              "ref": "c",
+              "stat": "1"
+            }
+          },
+          {
+            "mw": "ˌwä-"
+          },
+          {
+            "mw": "ˌwȯr-"
+          },
+          {
+            "mw": "ˌwär-"
+          },
+          {
+            "mw": "-nyən"
+          }
+        ],
+        "fl": "adjective"
+      }
+    ],
+    "shortdef": [
+      "George 1732—1799 American general; 1st president of the U.S. (1789—97)"
+    ]
+  },
+  {
+    "meta": {
+      "id": "Cable:b",
+      "uuid": "5657a53a-f3c9-41ab-9034-88a4198ddfa0",
+      "sort": "300867000",
+      "src": "collegiate",
+      "section": "biog",
+      "stems": [
+        "Cable",
+        "George W. Cable",
+        "George Washington Cable"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "Ca*ble",
+      "prs": [
+        {
+          "mw": "ˈkā-bəl",
+          "sound": {
+            "audio": "bixcab02",
+            "ref": "c",
+            "stat": "1"
+          }
+        }
+      ]
+    },
+    "fl": "biographical name",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "George Washington 1844–1925 American novelist"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "shortdef": [
+      "George Washington 1844—1925 American novelist"
+    ]
+  },
+  {
+    "meta": {
+      "id": "Carver:b1",
+      "uuid": "19910ff1-29da-4174-968a-2cf974a19640",
+      "sort": "300982000",
+      "src": "collegiate",
+      "section": "biog",
+      "stems": [
+        "Carver",
+        "George Washington Carver"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "Car*ver",
+      "prs": [
+        {
+          "mw": "ˈkär-vər",
+          "sound": {
+            "audio": "bixcar42",
+            "ref": "c",
+            "stat": "1"
+          }
+        }
+      ]
+    },
+    "fl": "biographical name",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "George Washington {it}circa{/it} 1861–1943 American botanist"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "shortdef": [
+      "George Washington circa 1861—1943 American botanist"
+    ]
+  },
+  {
+    "meta": {
+      "id": "Crile:b",
+      "uuid": "55af816e-57a9-49ff-bc48-be7c70907771",
+      "sort": "301352000",
+      "src": "collegiate",
+      "section": "biog",
+      "stems": [
+        "Crile",
+        "George Washington Crile"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "Crile",
+      "prs": [
+        {
+          "mw": "ˈkrī(-ə)l",
+          "sound": {
+            "audio": "bixcri03",
+            "ref": "c",
+            "stat": "1"
+          }
+        }
+      ]
+    },
+    "fl": "biographical name",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "George Washington 1864–1943 American surgeon"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "shortdef": [
+      "George Washington 1864—1943 American surgeon"
+    ]
+  },
+  {
+    "meta": {
+      "id": "De Long:b",
+      "uuid": "10c8fd51-ddb7-46af-8811-e3d44aa5bd9e",
+      "sort": "301523000",
+      "src": "collegiate",
+      "section": "biog",
+      "stems": [
+        "De Long",
+        "George Washington De Long",
+        "Long"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "De Long",
+      "prs": [
+        {
+          "mw": "də-ˈlȯŋ",
+          "sound": {
+            "audio": "bixdel13",
+            "ref": "c",
+            "stat": "1"
+          }
+        }
+      ]
+    },
+    "fl": "biographical name",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "George Washington 1844–1881 American naval officer and explorer"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "shortdef": [
+      "George Washington 1844—1881 American naval officer and explorer"
+    ]
+  },
+  {
+    "meta": {
+      "id": "Goethals:b",
+      "uuid": "935f35a6-7938-4fcd-80f0-258cf336e3d9",
+      "sort": "302318000",
+      "src": "collegiate",
+      "section": "biog",
+      "stems": [
+        "George Washington Goethals",
+        "Goethals"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "Goe*thals",
+      "prs": [
+        {
+          "mw": "ˈgō-thəlz",
+          "sound": {
+            "audio": "bixgoe03",
+            "ref": "c",
+            "stat": "1"
+          }
+        }
+      ]
+    },
+    "fl": "biographical name",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "George Washington 1858–1928 American general and engineer"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "shortdef": [
+      "George Washington 1858—1928 American general and engineer"
+    ]
+  },
+  {
+    "meta": {
+      "id": "George Washington Birthplace National Monument:g",
+      "uuid": "09e05d3a-4a4d-4be5-bb36-1c1fac3be4de",
+      "sort": "272949000",
+      "src": "collegiate",
+      "section": "geog",
+      "stems": [
+        "George Washington Birthplace National Monument"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "George Washington Birthplace National Monument"
+    },
+    "fl": "geographical name",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "historic site in eastern Virginia"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "shortdef": [
+      "historic site in eastern Virginia"
+    ]
+  },
+  {
+    "meta": {
+      "id": "George Washington Carver National Monument:g",
+      "uuid": "596d1791-c700-4ffa-b266-b33d2ac9e846",
+      "sort": "272950000",
+      "src": "collegiate",
+      "section": "geog",
+      "stems": [
+        "George Washington Carver National Monument"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "George Washington Carver National Monument"
+    },
+    "fl": "geographical name",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "historic site in southwestern Missouri southeast of Joplin which includes the birthplace and childhood home of the botanist George Washington Carver"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "shortdef": [
+      "historic site in southwestern Missouri southeast of Joplin which includes the birthplace and childhood home of the botanist George Washington Carver"
+    ]
+  }
+]

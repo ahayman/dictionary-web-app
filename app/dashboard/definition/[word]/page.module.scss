@@ -1,0 +1,40 @@
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20pt;
+  margin-right: 20pt;
+}
+
+.error {
+  color: var(--accent-color);
+}
+
+.titleBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-secondary-color);
+  padding: 10pt;
+  margin-bottom: 20pt;
+}
+
+.title {
+  font-size: 18pt;
+}
+
+.icon {
+  width: 18pt;
+  height: 18pt;
+}
+
+.favoriteIcon {
+  color: var(--accent-color);
+}
+
+.unFavoriteIcon {
+  color: var(--foreground-color-dim);
+}

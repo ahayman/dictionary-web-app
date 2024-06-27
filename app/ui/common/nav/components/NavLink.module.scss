@@ -1,0 +1,37 @@
+
+.selectedForeground {
+  color: var(--on-accent-color);
+}
+
+.selectedBackground {
+  background-color: var(--accent-color);
+}
+
+.unselectedBackground {
+  background-color: var(--background-color);
+}
+
+.unselectedForeground {
+  color: var(--foreground-color);
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5pt;
+  border-radius: 5pt;
+  margin-bottom: 10pt;
+  align-self: stretch;
+}
+
+.linkIcon {
+  text-align: center;
+  width: 35pt;
+  height: 35pt;
+}
+
+.title {
+  text-align: center;
+}
+

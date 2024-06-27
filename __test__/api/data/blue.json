@@ -1,0 +1,1516 @@
+[
+  {
+    "meta": {
+      "id": "blue:1",
+      "uuid": "47156021-f363-4b13-8b4e-17bddcb47684",
+      "sort": "020299000",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "blue",
+        "blue in the face",
+        "bluely",
+        "blueness",
+        "bluenesses",
+        "bluer",
+        "bluest"
+      ],
+      "offensive": false
+    },
+    "hom": 1,
+    "hwi": {
+      "hw": "blue",
+      "prs": [
+        {
+          "mw": "ˈblü",
+          "sound": {
+            "audio": "blue0001",
+            "ref": "c",
+            "stat": "1"
+          }
+        }
+      ]
+    },
+    "fl": "adjective",
+    "ins": [
+      {
+        "if": "blu*er"
+      },
+      {
+        "if": "blu*est"
+      }
+    ],
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}of the color whose hue is that of the clear sky {bc}of the color blue {dx_def}see {dxt|blue:2||1}{/dx_def} "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "a {wi}blue{/wi} jacket"
+                      },
+                      {
+                        "t": "her bright {wi}blue{/wi} eyes"
+                      },
+                      {
+                        "t": "The house is {wi}blue{/wi} with white shutters."
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2 a",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}{sx|bluish||} "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "the {wi}blue{/wi} haze of tobacco smoke"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}discolored by or as if by bruising "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "{wi}blue{/wi} with cold"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "c",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}bluish gray "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "a {wi}blue{/wi} cat"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "3 a",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}low in spirits {bc}{sx|melancholy||} "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "has been feeling {wi}blue{/wi}"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}marked by low spirits {bc}{sx|depressing||} "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "a {wi}blue{/wi} funk"
+                      },
+                      {
+                        "t": "things looked {wi}blue{/wi}"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "4",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}wearing blue "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "the {wi}blue{/wi} team"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "5",
+                "sls": [
+                  "of a woman"
+                ],
+                "dt": [
+                  [
+                    "text",
+                    "{bc}{sx|learned||}, {sx|intellectual||} "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "… the ladies were very {wi}blue{/wi} and well-informed …",
+                        "aq": {
+                          "auth": "W. M. Thackeray"
+                        }
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "6",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}{sx|puritanical||} "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "… a {wi}blue{/wi} Sunday city …",
+                        "aq": {
+                          "auth": "James Street"
+                        }
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "7 a",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}{sx|profane||}, {sx|indecent||} "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "a {wi}blue{/wi} movie"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}{sx|off-color||}, {sx|risqué||} "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "{wi}blue{/wi} jokes"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "8",
+                "sls": [
+                  "music"
+                ],
+                "dt": [
+                  [
+                    "text",
+                    "{bc}of, relating to, or used in blues {dx_def}see {dxt|blues||3}{/dx_def} "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "a {wi}blue{/wi} song"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "9",
+                "sls": [
+                  "US politics"
+                ],
+                "dt": [
+                  [
+                    "text",
+                    "{bc}tending to support Democratic candidates or policies "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "As has become increasingly clear over the past few general elections, with their red states and {wi}blue{/wi} states, an American Presidential campaign is no longer truly national.",
+                        "aq": {
+                          "auth": "Hendrik Hertzberg"
+                        }
+                      }
+                    ]
+                  ],
+                  [
+                    "text",
+                    "{dx}compare {dxt|purple||3}, {dxt|red||5}{/dx}"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "uros": [
+      {
+        "ure": "blue*ly",
+        "fl": "adverb"
+      },
+      {
+        "ure": "blue*ness",
+        "fl": "noun"
+      }
+    ],
+    "dros": [
+      {
+        "drp": "blue in the face",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}extremely {d_link|exasperated|exasperate:1} "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "argued until he was {it}blue in the face{/it}"
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "et": [
+      [
+        "text",
+        "Middle English, from Anglo-French {it}blef, blew{/it}, of Germanic origin; akin to Old High German {it}blāo{/it} blue; akin to Latin {it}flavus{/it} yellow"
+      ]
+    ],
+    "date": "13th century{ds||1||}",
+    "shortdef": [
+      "of the color whose hue is that of the clear sky : of the color blue",
+      "bluish",
+      "discolored by or as if by bruising"
+    ]
+  },
+  {
+    "meta": {
+      "id": "blue:2",
+      "uuid": "49a16abc-734e-486f-8252-012001f25683",
+      "sort": "020299100",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "blue",
+        "blues",
+        "out of the blue"
+      ],
+      "offensive": false
+    },
+    "hom": 2,
+    "hwi": {
+      "hw": "blue"
+    },
+    "fl": "noun",
+    "ins": [
+      {
+        "il": "plural",
+        "if": "blues"
+      }
+    ],
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a color whose hue is that of the clear sky or that of the portion of the color spectrum lying between green and violet "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "{wi}Blue{/wi} is his favorite color."
+                      },
+                      {
+                        "t": "shades of {wi}blue{/wi}"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2 a",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a pigment or dye that colors blue"
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}{sx|bluing||} "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "adding {wi}blue{/wi} to the laundry"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "3 a",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}blue clothing or cloth "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "will be wearing {wi}blue{/wi}"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "ins": [
+                  {
+                    "if": "blues",
+                    "spl": "plural"
+                  }
+                ],
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a blue costume or uniform "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "wearing their dress {wi}blues{/wi}"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "4 a",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a Union soldier in the American Civil War"
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "lbs": [
+                  "often capitalized"
+                ],
+                "dt": [
+                  [
+                    "text",
+                    "{bc}the Union army "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "the {wi}Blue{/wi} versus the Gray"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "pseq",
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "5 a (1)",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}{sx|sky||}"
+                      ]
+                    ]
+                  }
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "(2)",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}the far distance "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "disappeared into the {wi}blue{/wi}"
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}{sx|sea||}"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "6",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a blue object "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "the horse that won the {wi}blue{/wi} {gloss}={d_link|blue ribbon|blue ribbon}{/gloss}"
+                      },
+                      {
+                        "t": "… is bartered … like a stack of {wi}blues{/wi} {gloss}=blue chips{/gloss} in a Reno casino.",
+                        "aq": {
+                          "auth": "John Lewis"
+                        }
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "7",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}{sx|bluestocking||} "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "praised the writings of her fellow {wi}blues{/wi}"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "8",
+                "sls": [
+                  "biology"
+                ],
+                "dt": [
+                  [
+                    "text",
+                    "{bc}any of numerous small chiefly blue butterflies (family Lycaenidae)"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "9",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}{sx|bluefish||} "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "fishing for {wi}blues{/wi}"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "10",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}{sx|blue cheese||}"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "11",
+                "sls": [
+                  "physics"
+                ],
+                "dt": [
+                  [
+                    "text",
+                    "{bc}one of the three colors {dx_def}see {dxt|color:1|color:1|15}{/dx_def} that quarks have in the theory of {d_link|quantum chromodynamics|quantum chromodynamics} "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "One cannot have a single quark on its own because it would have a color (red, green, or {wi}blue{/wi}). Instead, a red quark has to be joined to a green and a blue quark by a \"string\" of gluons (red + green + blue = white). Such a triplet constitutes a proton or a neutron.",
+                        "aq": {
+                          "auth": "Stephen Hawking"
+                        }
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "dros": [
+      {
+        "drp": "out of the blue",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}without advance notice {bc}{sx|unexpectedly||} "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "the job offer came {it}out of the blue{/it}"
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "et": [
+      [
+        "text",
+        "{dx_ety}see {dxt|blue:1||}{/dx_ety}"
+      ]
+    ],
+    "date": "14th century{ds||1||}",
+    "shortdef": [
+      "a color whose hue is that of the clear sky or that of the portion of the color spectrum lying between green and violet",
+      "a pigment or dye that colors blue",
+      "bluing"
+    ]
+  },
+  {
+    "meta": {
+      "id": "blue:3",
+      "uuid": "7b3a07f8-f54b-49e9-a389-7b6642394760",
+      "sort": "020299200",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "blue",
+        "blue the air",
+        "blued",
+        "blued the air",
+        "blueing",
+        "blueing the air",
+        "blues",
+        "blues the air",
+        "bluing",
+        "bluing the air"
+      ],
+      "offensive": false
+    },
+    "hom": 3,
+    "hwi": {
+      "hw": "blue"
+    },
+    "fl": "verb",
+    "ins": [
+      {
+        "if": "blued"
+      },
+      {
+        "if": "blue*ing"
+      },
+      {
+        "il": "or",
+        "if": "blu*ing"
+      },
+      {
+        "if": "blues"
+      }
+    ],
+    "def": [
+      {
+        "vd": "transitive verb",
+        "sseq": [
+          [
+            [
+              "bs",
+              {
+                "sense": {
+                  "dt": [
+                    [
+                      "text",
+                      "{bc}to make (something) blue in color: such as"
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "a",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}to dye, tint, or paint (something) blue "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "Last, the generation of the grandmothers, in immaculately {wi}blued{/wi} hair …",
+                        "aq": {
+                          "auth": "John Updike"
+                        }
+                      },
+                      {
+                        "t": "Tattoos {wi}blued{/wi} his upper arms.",
+                        "aq": {
+                          "auth": "Jerry Spinelli"
+                        }
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}to heat (iron or steel) to about 550 to 600°F (288 to 316°C) so that it acquires a bluish protective coating "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "the {it}blued{/it} barrel of the gun"
+                      },
+                      {
+                        "t": "Between banks shrouded with snow, the river gleamed darkly, like {wi}blued{/wi} steel with gold chips of sunlight dancing on each riffle.",
+                        "aq": {
+                          "auth": "Pete Bodo"
+                        }
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      },
+      {
+        "vd": "intransitive verb",
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}to turn blue "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "their {it}blueing{/it} fingers"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "dros": [
+      {
+        "drp": "blue the air",
+        "def": [
+          {
+            "sls": [
+              "informal"
+            ],
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}to curse angrily "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "He sliced the air with his fists and {wi}blued the air{/wi} with his mouth.",
+                            "aq": {
+                              "auth": "Steve Kelley"
+                            }
+                          },
+                          {
+                            "t": "I have been stealing my father's copy (of Massachusetts Wildlife) for a long time, but last week he found an issue on my desk and {wi}blued the air{/wi} a bit.",
+                            "aq": {
+                              "auth": "Stephen King Donovan"
+                            }
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "et": [
+      [
+        "text",
+        "{dx_ety}see {dxt|blue:1||}{/dx_ety}"
+      ]
+    ],
+    "date": "1606{ds|t|||}",
+    "shortdef": [
+      "to make (something) blue in color: such as",
+      "to dye, tint, or paint (something) blue",
+      "to heat (iron or steel) to about 550 to 600°F (288 to 316°C) so that it acquires a bluish protective coating"
+    ]
+  },
+  {
+    "meta": {
+      "id": "blue agave",
+      "uuid": "ef070509-2df7-400b-815a-3b179c356fd0",
+      "sort": "020299250",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "blue agave",
+        "blue agaves"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "blue agave"
+    },
+    "fl": "noun",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a Mexican {d_link|agave|agave} ({it}Agave tequilana{/it}) that has bluish- to greenish-gray swordlike leaves with spiny margins and is typically cultivated for the production of {d_link|tequila|tequila} and sometimes grown as an ornamental"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "date": "1950",
+    "shortdef": [
+      "a Mexican agave (Agave tequilana) that has bluish- to greenish-gray swordlike leaves with spiny margins and is typically cultivated for the production of tequila and sometimes grown as an ornamental"
+    ]
+  },
+  {
+    "meta": {
+      "id": "blue baby",
+      "uuid": "65ec2d11-71c9-4ffa-a14d-66f226703298",
+      "sort": "020299300",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "blue babies",
+        "blue baby"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "blue baby"
+    },
+    "fl": "noun",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}an infant with cyanosis usually from a congenital heart defect in which venous and arterial blood are mingled"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "date": "1858",
+    "shortdef": [
+      "an infant with cyanosis usually from a congenital heart defect in which venous and arterial blood are mingled"
+    ]
+  },
+  {
+    "meta": {
+      "id": "blue blood",
+      "uuid": "84796c3e-6a86-4cdc-81f7-aa01aea04266",
+      "sort": "020299900",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "blue blood",
+        "blue bloods",
+        "blue-blooded"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "blue blood"
+    },
+    "fl": "noun",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1",
+                "prs": [
+                  {
+                    "mw": "ˈblü-ˈbləd"
+                  }
+                ],
+                "dt": [
+                  [
+                    "text",
+                    "{bc}membership in a noble or socially prominent family"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2",
+                "prs": [
+                  {
+                    "mw": "-ˌbləd"
+                  }
+                ],
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a member of a noble or socially prominent family"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "uros": [
+      {
+        "ure": "blue-blood*ed",
+        "prs": [
+          {
+            "mw": "ˈblü-ˈblə-dəd",
+            "sound": {
+              "audio": "blueb02w",
+              "ref": "c",
+              "stat": "1"
+            }
+          }
+        ],
+        "fl": "adjective"
+      }
+    ],
+    "date": "1809{ds||1||}",
+    "shortdef": [
+      "membership in a noble or socially prominent family",
+      "a member of a noble or socially prominent family"
+    ]
+  },
+  {
+    "meta": {
+      "id": "blue book",
+      "uuid": "31fd8fdc-fc4d-4c4e-b123-b09252346d9c",
+      "sort": "020300100",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "blue book",
+        "blue books"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "blue book"
+    },
+    "fl": "noun",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a register especially of socially prominent persons"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a book of specialized information often published under government auspices"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "3",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a blue-covered booklet used for writing examinations"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "4",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a periodically issued price list (as of used cars)"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "date": "1633{ds||2||}",
+    "shortdef": [
+      "a register especially of socially prominent persons",
+      "a book of specialized information often published under government auspices",
+      "a blue-covered booklet used for writing examinations"
+    ]
+  },
+  {
+    "meta": {
+      "id": "blue catfish",
+      "uuid": "3e92e380-e504-4407-9840-0ee834c2dfc0",
+      "sort": "020300300",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "blue cat",
+        "blue catfish",
+        "blue catfishes"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "blue catfish"
+    },
+    "fl": "noun",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a large bluish catfish ({it}Ictalurus furcatus{/it}) of the Mississippi River valley that may weigh over 100 pounds (45 kilograms)"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "date": "1818",
+    "shortdef": [
+      "a large bluish catfish (Ictalurus furcatus) of the Mississippi River valley that may weigh over 100 pounds (45 kilograms)"
+    ]
+  },
+  {
+    "meta": {
+      "id": "blue cheese",
+      "uuid": "a578db48-d15a-4906-a503-40312fc9bf1d",
+      "sort": "020300400",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "blue cheese",
+        "blue cheeses"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "blue cheese",
+      "prs": [
+        {
+          "mw": "ˈblü-ˈchēz",
+          "sound": {
+            "audio": "bleu-cheese_1",
+            "ref": "owl",
+            "stat": "1"
+          }
+        }
+      ]
+    },
+    "vrs": [
+      {
+        "vl": "or less commonly",
+        "va": "bleu cheese",
+        "prs": [
+          {
+            "mw": "ˈblü-ˈchēz",
+            "sound": {
+              "audio": "bleu-cheese_1",
+              "ref": "owl",
+              "stat": "1"
+            }
+          }
+        ]
+      }
+    ],
+    "fl": "noun",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a cheese marked with veins of greenish-blue mold "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "Where does the blue in {wi}blue cheese{/wi} come from? Mold. But it's harmless mold, so enjoy!",
+                        "aq": {
+                          "source": "{it}The Chicago Tribune{/it}"
+                        }
+                      },
+                      {
+                        "t": "The beef was a perfect medium-rare, and the sauce was robust, ideal for the meat with just the right touch of {wi}bleu cheese{/wi}.",
+                        "aq": {
+                          "auth": "Scott J. Haring"
+                        }
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "date": "1787",
+    "shortdef": [
+      "a cheese marked with veins of greenish-blue mold"
+    ]
+  },
+  {
+    "meta": {
+      "id": "blue chip",
+      "uuid": "48de0ba0-6262-4033-8d18-eefad6596d6e",
+      "sort": "020300500",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "blue chip",
+        "blue chips",
+        "blue-chip"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "blue chip"
+    },
+    "fl": "noun",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1 a",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a stock issue of high investment quality that usually pertains to a substantial well-established company and enjoys public confidence in its worth and stability"
+                  ]
+                ],
+                "sdsense": {
+                  "sd": "also",
+                  "dt": [
+                    [
+                      "text",
+                      "{bc}a company that offers such stocks"
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a business or undertaking with an outstanding record or likelihood of profitability"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "bs",
+              {
+                "sense": {
+                  "sn": "2",
+                  "dt": [
+                    [
+                      "text",
+                      "{bc}one that is outstanding: such as"
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "a",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}an outstandingly worthwhile or valuable property or asset"
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}an athlete rated as excellent or as an excellent prospect"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "uros": [
+      {
+        "ure": "blue-chip",
+        "prs": [
+          {
+            "mw": "ˈblü-ˈchip",
+            "sound": {
+              "audio": "bluechip",
+              "ref": "wod",
+              "stat": "1"
+            }
+          }
+        ],
+        "fl": "adjective"
+      }
+    ],
+    "date": "1892{ds||1|a|}",
+    "shortdef": [
+      "a stock issue of high investment quality that usually pertains to a substantial well-established company and enjoys public confidence in its worth and stability; also : a company that offers such stocks",
+      "a business or undertaking with an outstanding record or likelihood of profitability",
+      "one that is outstanding: such as"
+    ]
+  }
+]

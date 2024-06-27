@@ -1,0 +1,45 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.subText {
+  color: var(--foreground-color-dim);
+  font-size: 10pt;
+}
+
+.entry-input {
+  min-width: 250pt;
+  margin-bottom: 10pt;
+  padding: 5pt 5pt;
+}
+
+.submit {
+  margin-left: 5pt;
+  padding: 5pt 5pt;
+}
+
+.logo {
+  align-self: center;
+  margin-bottom: 20pt;
+}
+
+.title {
+  color: var(--foreground-color);
+  margin-bottom: 6pt;
+}
+
+.entry-container {
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--background-secondary-color);
+  border-radius: 10pt;
+  padding: 16pt;
+}
+
+.error {
+  color: var(--error-color);
+}

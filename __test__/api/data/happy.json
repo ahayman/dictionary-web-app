@@ -1,0 +1,909 @@
+[
+  {
+    "meta": {
+      "id": "happy",
+      "uuid": "bea1b580-e5aa-49c2-8823-40174d5fd750",
+      "sort": "080054000",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "happier",
+        "happiest",
+        "happy"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "hap*py",
+      "prs": [
+        {
+          "mw": "ˈha-pē",
+          "sound": {
+            "audio": "happy001",
+            "ref": "c",
+            "stat": "1"
+          }
+        }
+      ]
+    },
+    "fl": "adjective",
+    "ins": [
+      {
+        "if": "hap*pi*er"
+      },
+      {
+        "ifc": "-est",
+        "if": "hap*pi*est"
+      }
+    ],
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}favored by luck or fortune {bc}{sx|fortunate||} "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "a {wi}happy{/wi} coincidence"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}notably fitting, effective, or well adapted {bc}{sx|felicitous||} "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "a {wi}happy{/wi} choice"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "3 a",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}enjoying or characterized by well-being and contentment "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "is the {it}happiest{/it} person I know"
+                      },
+                      {
+                        "t": "a {wi}happy{/wi} childhood"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}expressing, reflecting, or suggestive of {a_link|happiness} "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "a {wi}happy{/wi} ending"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "c",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}{sx|glad||}, {sx|pleased||} "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "I'm {wi}happy{/wi} to meet you"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "d",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}having or marked by an atmosphere of good fellowship {bc}{sx|friendly||} "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "a {wi}happy{/wi} office"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "4 a",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}characterized by a dazed irresponsible state "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "a punch-{it}happy{/it} boxer"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}impulsively or obsessively quick to use or do something "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "trigger-{it}happy{/it}"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "c",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}enthusiastic about something to the point of obsession {bc}{sx|obsessed||} "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "education-conscious and statistic-{it}happy{/it}",
+                        "aq": {
+                          "auth": "Helen Rowen"
+                        }
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "syns": [
+      {
+        "pl": "synonyms",
+        "pt": [
+          [
+            "text",
+            "{sc}lucky{/sc} {sc}fortunate{/sc} {sc}happy{/sc} {sc}providential{/sc} mean meeting with unforeseen success. {sc}lucky{/sc} stresses the role of chance in bringing about a favorable result. "
+          ],
+          [
+            "vis",
+            [
+              {
+                "t": "won because of a {it}lucky{/it} bounce"
+              }
+            ]
+          ],
+          [
+            "text",
+            " {sc}fortunate{/sc} suggests being rewarded beyond what one deserves. "
+          ],
+          [
+            "vis",
+            [
+              {
+                "t": "{it}fortunate{/it} in my investments"
+              }
+            ]
+          ],
+          [
+            "text",
+            " {sc}happy{/sc} combines the implications of {sc}lucky{/sc} and {sc}fortunate{/sc} with stress on being blessed. "
+          ],
+          [
+            "vis",
+            [
+              {
+                "t": "a series of {it}happy{/it} accidents"
+              }
+            ]
+          ],
+          [
+            "text",
+            " {sc}providential{/sc} more definitely implies the help or intervention of a higher power. "
+          ],
+          [
+            "vis",
+            [
+              {
+                "t": "a {it}providential{/it} change in the weather"
+              }
+            ]
+          ]
+        ]
+      },
+      {
+        "pl": "synonyms",
+        "pt": [
+          [
+            "text",
+            "{sc}fit{/sc} {sc}suitable{/sc} {sc}meet{/sc} {sc}proper{/sc} {sc}appropriate{/sc} {sc}fitting{/sc} {sc}apt{/sc} {sc}happy{/sc}{sc}felicitous{/sc} mean right with respect to some end, need, use, or circumstance. {sc}fit{/sc} stresses adaptability and sometimes special readiness for use or action. "
+          ],
+          [
+            "vis",
+            [
+              {
+                "t": "{it}fit{/it} for battle"
+              }
+            ]
+          ],
+          [
+            "text",
+            " {sc}suitable{/sc} implies an answering to requirements or demands. "
+          ],
+          [
+            "vis",
+            [
+              {
+                "t": "clothes {it}suitable{/it} for camping"
+              }
+            ]
+          ],
+          [
+            "text",
+            " {sc}meet{/sc} suggests a just proportioning. "
+          ],
+          [
+            "vis",
+            [
+              {
+                "t": "{it}meet{/it} payment"
+              }
+            ]
+          ],
+          [
+            "text",
+            " {sc}proper{/sc} suggests a suitability through essential nature or accordance with custom. "
+          ],
+          [
+            "vis",
+            [
+              {
+                "t": "{it}proper{/it} acknowledgement"
+              }
+            ]
+          ],
+          [
+            "text",
+            " {sc}appropriate{/sc} implies eminent or distinctive fitness. "
+          ],
+          [
+            "vis",
+            [
+              {
+                "t": "an {it}appropriate{/it} gift"
+              }
+            ]
+          ],
+          [
+            "text",
+            " {sc}fitting{/sc} implies harmony of mood or tone. "
+          ],
+          [
+            "vis",
+            [
+              {
+                "t": "a {it}fitting{/it} end"
+              }
+            ]
+          ],
+          [
+            "text",
+            " {sc}apt{/sc} connotes a fitness marked by nicety and discrimination. "
+          ],
+          [
+            "vis",
+            [
+              {
+                "t": "{it}apt{/it} quotations"
+              }
+            ]
+          ],
+          [
+            "text",
+            " {sc}happy{/sc} suggests what is effectively or successfully appropriate. "
+          ],
+          [
+            "vis",
+            [
+              {
+                "t": "a {it}happy{/it} choice of words"
+              }
+            ]
+          ],
+          [
+            "text",
+            " {sc}felicitous{/sc} suggests an aptness that is opportune, telling, or graceful. "
+          ],
+          [
+            "vis",
+            [
+              {
+                "t": "a {it}felicitous{/it} phrase"
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "et": [
+      [
+        "text",
+        "Middle English, from {it}hap{/it}"
+      ]
+    ],
+    "date": "14th century{ds||1||}",
+    "shortdef": [
+      "favored by luck or fortune : fortunate",
+      "notably fitting, effective, or well adapted : felicitous",
+      "enjoying or characterized by well-being and contentment"
+    ]
+  },
+  {
+    "meta": {
+      "id": "happy camper",
+      "uuid": "1b4ede1e-b974-4328-8e36-80d9e12bb44c",
+      "sort": "080054100",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "happy camper",
+        "happy campers"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "happy camper"
+    },
+    "fl": "noun",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}one who is content"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "date": "1957",
+    "shortdef": [
+      "one who is content"
+    ]
+  },
+  {
+    "meta": {
+      "id": "happy-go-lucky",
+      "uuid": "26352061-8c60-4d34-a877-81baf5236ec4",
+      "sort": "080054200",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "happy-go-lucky"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "hap*py-go-lucky",
+      "prs": [
+        {
+          "mw": "ˌha-pē-gō-ˈlə-kē",
+          "sound": {
+            "audio": "happyg01",
+            "ref": "c",
+            "stat": "1"
+          }
+        }
+      ]
+    },
+    "fl": "adjective",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}blithely unconcerned {bc}{sx|carefree||}"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "date": "1835",
+    "shortdef": [
+      "blithely unconcerned : carefree"
+    ]
+  },
+  {
+    "meta": {
+      "id": "happy hour",
+      "uuid": "0553b2ad-da07-4d1c-84eb-43f1db36e008",
+      "sort": "080054300",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "happy hour",
+        "happy hours"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "happy hour"
+    },
+    "fl": "noun",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a period of time during which the price of drinks (as at a bar) is reduced or hors d'oeuvres are served free"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "date": "1959",
+    "shortdef": [
+      "a period of time during which the price of drinks (as at a bar) is reduced or hors d'oeuvres are served free"
+    ]
+  },
+  {
+    "meta": {
+      "id": "happy hunting ground",
+      "uuid": "61d08918-023b-4196-bb37-8131faaeaac1",
+      "sort": "080054400",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "happy hunting ground",
+        "happy hunting grounds"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "happy hunting ground"
+    },
+    "fl": "noun",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}the paradise of some American Indian tribes to which the souls of warriors and hunters pass after death to spend a happy hereafter in hunting and feasting"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a choice or profitable area of activity or exploitation"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "date": "1826{ds||1||}",
+    "shortdef": [
+      "the paradise of some American Indian tribes to which the souls of warriors and hunters pass after death to spend a happy hereafter in hunting and feasting",
+      "a choice or profitable area of activity or exploitation"
+    ]
+  },
+  {
+    "meta": {
+      "id": "happy talk",
+      "uuid": "67384f1f-a8da-4935-a2ab-8f3c12f476ba",
+      "sort": "080054500",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "happy talk"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "happy talk"
+    },
+    "fl": "noun",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}informal talk among the participants in a television news broadcast"
+                  ]
+                ],
+                "sdsense": {
+                  "sd": "also",
+                  "dt": [
+                    [
+                      "text",
+                      "{bc}a broadcast format featuring such talk"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}optimistic talk"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "date": "1971{ds||1||}",
+    "shortdef": [
+      "informal talk among the participants in a television news broadcast; also : a broadcast format featuring such talk",
+      "optimistic talk"
+    ]
+  },
+  {
+    "meta": {
+      "id": "happy for",
+      "uuid": "b4f00907-244f-489e-abda-2a0f04aa5963",
+      "sort": "3008077000",
+      "src": "ld",
+      "section": "idioms",
+      "stems": [
+        "happy for"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "happy for"
+    },
+    "fl": "idiom",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}to be glad about (someone's luck or accomplishment) "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "It's great that he won the scholarship. I'm very {it}happy for{/it} him."
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "shortdef": [
+      "to be glad about (someone's luck or accomplishment)"
+    ]
+  },
+  {
+    "meta": {
+      "id": "happy medium",
+      "uuid": "36f38d00-e856-4ec5-9b8c-28110f59ece0",
+      "sort": "3008080000",
+      "src": "ld",
+      "section": "idioms",
+      "stems": [
+        "happy medium"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "happy medium"
+    },
+    "fl": "noun",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a good choice or condition that avoids any extremes "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "The car's designers have found/struck a {it}happy medium{/it} between affordability and luxury."
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "shortdef": [
+      "a good choice or condition that avoids any extremes"
+    ]
+  },
+  {
+    "meta": {
+      "id": "trigger-happy",
+      "uuid": "19f6b8cc-3944-4342-84eb-af096de0ca10",
+      "sort": "200385900",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "trigger-happy"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "trig*ger-hap*py",
+      "prs": [
+        {
+          "mw": "ˈtri-gər-ˌha-pē",
+          "sound": {
+            "audio": "trigge05",
+            "ref": "c",
+            "stat": "1"
+          }
+        }
+      ]
+    },
+    "fl": "adjective",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}irresponsible in the use of firearms"
+                  ]
+                ],
+                "sdsense": {
+                  "sd": "especially",
+                  "dt": [
+                    [
+                      "text",
+                      "{bc}inclined to shoot before clearly identifying the target"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2 a",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}inclined to be irresponsible in matters that might precipitate war"
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}aggressively belligerent in attitude"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "date": "1943{ds||1||}",
+    "shortdef": [
+      "irresponsible in the use of firearms; especially : inclined to shoot before clearly identifying the target",
+      "inclined to be irresponsible in matters that might precipitate war",
+      "aggressively belligerent in attitude"
+    ]
+  },
+  {
+    "meta": {
+      "id": "(as) happy as a clam",
+      "uuid": "69107ef8-ef4c-4634-a726-0fe0a3be7a41",
+      "sort": "3000814000",
+      "src": "ld",
+      "section": "idioms",
+      "stems": [
+        "(as) happy as a clam",
+        "as happy as a clam",
+        "happy as a clam"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "(as) happy as a clam"
+    },
+    "fl": "idiom",
+    "def": [
+      {
+        "sls": [
+          "US",
+          "informal"
+        ],
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}very happy "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "She spent the afternoon reading and was {it}(as) happy as a clam{/it}."
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "shortdef": [
+      "very happy"
+    ]
+  }
+]

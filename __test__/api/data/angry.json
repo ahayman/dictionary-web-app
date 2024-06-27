@@ -1,0 +1,232 @@
+[
+  {
+    "meta": {
+      "id": "angry",
+      "uuid": "1d659137-d7d0-489d-83bb-cbea550ce602",
+      "sort": "012804000",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "angrier",
+        "angriest",
+        "angrily",
+        "angriness",
+        "angrinesses",
+        "angry"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "an*gry",
+      "prs": [
+        {
+          "mw": "ˈaŋ-grē",
+          "sound": {
+            "audio": "angry001",
+            "ref": "c",
+            "stat": "1"
+          }
+        }
+      ]
+    },
+    "fl": "adjective",
+    "ins": [
+      {
+        "if": "an*gri*er"
+      },
+      {
+        "ifc": "-est",
+        "if": "an*gri*est"
+      }
+    ],
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}feeling or showing {d_link|anger|anger:1} "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "an {wi}angry{/wi} crowd"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2 a",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}indicative of or proceeding from anger "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "{wi}angry{/wi} words"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}seeming to show anger or to threaten in an angry manner "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "an {wi}angry{/wi} sky"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "3",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}painfully inflamed "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "an {wi}angry{/wi} rash"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "uros": [
+      {
+        "ure": "an*gri*ly",
+        "prs": [
+          {
+            "mw": "ˈaŋ-grə-lē",
+            "sound": {
+              "audio": "angry002"
+            }
+          }
+        ],
+        "fl": "adverb"
+      },
+      {
+        "ure": "an*gri*ness",
+        "prs": [
+          {
+            "mw": "ˈaŋ-grē-nəs",
+            "sound": {
+              "audio": "angry003",
+              "ref": "c",
+              "stat": "1"
+            }
+          }
+        ],
+        "fl": "noun"
+      }
+    ],
+    "et": [
+      [
+        "text",
+        "Middle English, \"ill-tempered, resentful, incensed, vexing,\" from {it}anger, angre{/it} \"distress, affliction, hostile attitude, strong displeasure\" + {it}-y {/it} {et_link|-y:1|-y:1} {ma}{mat|anger:1|}{/ma}"
+      ]
+    ],
+    "date": "14th century{ds||1||}",
+    "shortdef": [
+      "feeling or showing anger",
+      "indicative of or proceeding from anger",
+      "seeming to show anger or to threaten in an angry manner"
+    ]
+  },
+  {
+    "meta": {
+      "id": "angry young man",
+      "uuid": "11676d4c-fe05-4500-9416-93cf34bce820",
+      "sort": "012805000",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "angry young man",
+        "angry young men"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "angry young man"
+    },
+    "fl": "noun",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}an outspoken critic of or protester against an economic condition or social injustice"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}one of a group of mid-20th century British authors whose works express the bitterness of the lower classes toward the established sociopolitical system and toward the mediocrity and hypocrisy of the middle and upper classes"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "date": "1951{ds||1||}",
+    "shortdef": [
+      "an outspoken critic of or protester against an economic condition or social injustice",
+      "one of a group of mid-20th century British authors whose works express the bitterness of the lower classes toward the established sociopolitical system and toward the mediocrity and hypocrisy of the middle and upper classes"
+    ]
+  }
+]

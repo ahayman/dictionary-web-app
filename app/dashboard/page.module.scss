@@ -1,0 +1,62 @@
+.main {
+  display: flex;
+  flex-grow: 1;
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.title {
+  color: var(--foreground-color);
+  margin-bottom: 6pt;
+}
+
+.entry-container {
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--background-secondary-color);
+  border-radius: 10pt;
+  padding: 16pt;
+}
+
+.inputRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.searchIcon {
+  width: 17pt;
+  height: 17pt;
+  color: var(--foreground-color);
+  margin-right: 5pt;
+}
+
+.error {
+  color: var(--error-color);
+}
+
+.entry-input {
+  min-width: 250pt;
+  margin-bottom: 10pt;
+  padding: 5pt 5pt;
+}
+
+.submit {
+  margin-left: 5pt;
+  padding: 5pt 5pt;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: start;
+}
+
+.infoItem {
+  margin: 10pt;
+  min-width: 200pt;
+}

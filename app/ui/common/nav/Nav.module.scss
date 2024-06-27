@@ -1,0 +1,127 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 6pt;
+  min-height: 100vh;
+}
+
+.logo {
+  margin-bottom: 20pt;
+}
+
+.vSpacer {
+  flex-grow: 1;
+}
+
+.signoutButton {
+  background-color: transparent;
+  background: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  text-shadow: none;
+  padding: 5pt;
+}
+
+.signoutButton:hover {
+  background-color: var(--background-color);
+  border-radius: 5pt;
+}
+
+.signoutIcon {
+  text-align: center;
+  width: 35pt;
+  height: 35pt;
+  color: var(--foreground-color);
+}
+
+.themeButton {
+  background-color: transparent;
+  background: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  text-shadow: none;
+  padding: 5pt;
+}
+
+.themeButton:hover {
+  background-color: var(--background-color);
+  border-radius: 5pt;
+}
+
+.themeIcon {
+  text-align: center;
+  width: 20pt;
+  height: 20pt;
+  color: var(--foreground-color);
+}
+
+.hr {
+  height: 1pt;
+  background-color: var(--background-color);
+  align-self: stretch;
+  margin: 5pt;
+}
+
+.confirmContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.yesButton {
+  background-color: transparent;
+  background: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  text-shadow: none;
+  padding: 5pt;
+}
+
+.yesButton:hover {
+  background-color: var(--background-color);
+  border-radius: 5pt;
+}
+
+.noButton {
+  background-color: transparent;
+  background: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  text-shadow: none;
+  padding: 5pt;
+}
+
+.noButton:hover {
+  background-color: var(--background-color);
+  border-radius: 5pt;
+}
+
+.confirmYesIcon {
+  text-align: center;
+  width: 20pt;
+  height: 20pt;
+  color: var(--error-color);
+}
+
+.confirmNoIcon {
+  text-align: center;
+  width: 20pt;
+  height: 20pt;
+  color: var(--foreground-color);
+}
+
+.warningText {
+  font-size: 10pt;
+  color: var(--error-color)
+}

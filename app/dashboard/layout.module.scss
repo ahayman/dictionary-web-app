@@ -1,0 +1,19 @@
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.nav {
+  background-color: var(--background-secondary-color);
+}
+
+.container {
+  // background-color: var(--background-color);
+  align-self: stretch;
+  flex-grow: 1;
+}
