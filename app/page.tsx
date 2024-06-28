@@ -19,17 +19,15 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
+      <Image
+        src="/logox1200.png"
+        alt="Merriam Webster Logo"
+        height={250}
+        width={250}
+        priority
+      />
       <div className={styles.description}>
-        <div>
-          <Image
-            src="/logox1200.png"
-            alt="Merriam Webster Logo"
-            className={styles.logo}
-            width={500}
-            height={500}
-            priority
-          />
-        </div>
+        <p>A simple web app to search for word definitions.</p>
       </div>
     </main>
   )

@@ -40,6 +40,11 @@
 .container {
   align-self: stretch;
   flex-grow: 1;
+  background: linear-gradient(
+    to bottom,
+    var(--background-color),
+    var(--background-secondary-color-2)
+  );
   // height: 100vh;
   overflow: scroll;
   @include mobile {
