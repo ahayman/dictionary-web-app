@@ -75,10 +75,17 @@
 
   @include mobile {
     flex-direction: column;
+    justify-content: end;
+    align-items: center;
   }
 }
 
 .infoItem {
   margin: 10pt;
   min-width: 250pt;
+  @include mobile {
+    align-self: stretch;
+    width: 100%;
+    margin: 5pt 0pt;
+  }
 }

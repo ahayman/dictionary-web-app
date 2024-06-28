@@ -1,3 +1,5 @@
+@use '../../mixins' as *;
+
 .main {
   display: flex;
   flex-direction: column;
@@ -5,12 +7,23 @@
   align-items: center;
   padding: 10pt;
   margin: 10pt;
+
+  @include mobile {
+    padding: 5pt;
+    margin: 2pt;
+  }
 }
 
 .icon {
   width: 18pt;
   height: 18pt;
   margin-right: 10pt;
+
+  @include mobile {
+    width: 40pt;
+    height: 40pt;
+    margin-right: 5pt;
+  }
 }
 
 .favoriteIcon {
@@ -28,7 +41,12 @@
   align-items: center;
   background-color: var(--background-secondary-color);
   padding: 10pt;
-  margin-bottom: 20pt;
+  margin-bottom: 10pt;
+
+  @include mobile {
+    padding: 5pt;
+    margin-bottom: 5pt;
+  }
 }
 
 .title {

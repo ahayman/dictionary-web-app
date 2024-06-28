@@ -46,7 +46,7 @@ export default function DefinitionsPage() {
   const FavoriteIcon = isFavorite ? SolidStarIcon : OutlineStarIcon
 
   return (
-    <>
+    <div className={s.main}>
       <div className={s.titleBar}>
         <h2 className={s.title}>{word}</h2>
         <FavoriteIcon
@@ -57,10 +57,10 @@ export default function DefinitionsPage() {
           )}
         />
       </div>
-      <div className={s.main}>
+      <div className={s.container}>
         {definitionView(definition)}
         {!!error && <p className={s.error}>{error}</p>}
       </div>
-    </>
+    </div>
   )
 }

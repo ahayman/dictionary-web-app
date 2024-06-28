@@ -1,11 +1,18 @@
-
+@use '../../../../mixins' as *;
 
 .main {
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: start;
+  border-radius: 5pt;
+  background-color: var(--background-secondary-color);
   padding: 10pt;
+
+  @include mobile {
+    padding: 0pt;
+    background-color: transparent;
+  }
 }
 
 .fl {
@@ -76,10 +83,16 @@
 
 .groupingContainer {
   padding: 0pt 10pt;
+  @include mobile {
+    padding: 0pt 5pt;
+  }
 }
 
 .majorContainer {
   padding: 10pt;
+  @include mobile {
+    padding: 5pt;
+  }
 }
 
 .hr {
