@@ -5,6 +5,7 @@
   align-items: stretch;
   background-color: var(--background-secondary-color);
   border-radius: 10pt;
+  max-width: 300pt;
 }
 
 .wordRow {
@@ -19,6 +20,17 @@
   background-color: var(--background-color);
   height: 1pt;
   width: 80%;
+}
+
+.vListContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.hListContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .wordContainer {

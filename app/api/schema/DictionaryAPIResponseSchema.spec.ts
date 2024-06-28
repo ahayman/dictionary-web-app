@@ -4,6 +4,7 @@ import angryJson from "@test/api/data/angry.json"
 import georgeJson from "@test/api/data/george_washington.json"
 import happyJson from "@test/api/data/happy.json"
 import helloJson from "@test/api/data/hello.json"
+import isJson from "@test/api/data/is.json"
 import fluffleJson from "@test/api/data/fluffle.json"
 
 import {
@@ -104,6 +105,24 @@ describe("Hello JSON Schema validation", () => {
 
 describe("George Washington JSON Schema validation", () => {
   const json = georgeJson
+  it("should decode the json response", async () => {
+    const response = Value.Decode(DictionaryAPISuccessResponseSchema, json)
+    expect(response instanceof Array).toBe(true)
+  })
+  it("should not decode as failure response", async () => {
+    expect(Value.Check(DictionaryAPIFailureResponseSchema, json)).toBe(false)
+  })
+  it("should check the json response", async () => {
+    expect(Value.Check(DictionaryAPISuccessResponseSchema, json)).toBe(true)
+  })
+  it("should not throw errors", async () => {
+    const errors = [...Value.Errors(DictionaryAPISuccessResponseSchema, json)]
+    expect(errors.length).toBe(0)
+  })
+})
+
+describe("Is JSON Schema validation", () => {
+  const json = isJson
   it("should decode the json response", async () => {
     const response = Value.Decode(DictionaryAPISuccessResponseSchema, json)
     expect(response instanceof Array).toBe(true)

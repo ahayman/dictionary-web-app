@@ -9,10 +9,13 @@ type Props = {
 export default function DashboardLayout({ children }: Props) {
   return (
     <div className={s.main}>
-      <div className={s.nav}>
+      <div className={s.sideNav}>
         <Nav />
       </div>
       <div className={s.container}>{children}</div>
+      <div className={s.bottomNav}>
+        <Nav />
+      </div>
     </div>
   )
 }

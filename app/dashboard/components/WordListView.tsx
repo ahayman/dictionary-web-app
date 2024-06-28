@@ -6,8 +6,10 @@ import { cat } from "@/app/utils/cat"
 export type Props = {
   title?: string
   words: string[]
+  hWrap?: boolean
   onSelect: (word: string) => void
   iconDef?: {
+    className?: string
     location: "start" | "end"
     icon: Icon
     onClick?: (word: string) => void
@@ -18,6 +20,7 @@ export default function WordListView({
   words,
   onSelect,
   title,
+  hWrap,
   iconDef,
 }: Props) {
   return (
@@ -28,29 +31,32 @@ export default function WordListView({
           <div className={s.titleHr} />
         </>
       )}
-      {words
-        .map((w) => (
-          <div key={w} className={s.wordRow}>
-            {iconDef && iconDef.location === "start" && (
-              <iconDef.icon
-                onClick={() => iconDef.onClick?.(w)}
-                className={cat(s.icon, s.iconStart)}
-              />
-            )}
-            <div onClick={() => onSelect(w)} className={s.wordContainer}>
-              <b className={s.wordText}>{w}</b>
+      <div className={hWrap ? s.hListContainer : s.vListContainer}>
+        {words
+          .map((w) => (
+            <div key={w} className={s.wordRow}>
+              {iconDef && iconDef.location === "start" && (
+                <iconDef.icon
+                  onClick={() => iconDef.onClick?.(w)}
+                  className={cat(s.icon, s.iconStart)}
+                />
+              )}
+              <div
+                onClick={() => onSelect(w)}
+                className={hWrap ? undefined : s.wordContainer}
+              >
+                <b className={s.wordText}>{w}</b>
+              </div>
+              {iconDef && iconDef.location === "end" && (
+                <iconDef.icon
+                  onClick={() => iconDef.onClick?.(w)}
+                  className={cat(s.icon, s.iconEnd, iconDef.className)}
+                />
+              )}
             </div>
-            {iconDef && iconDef.location === "end" && (
-              <iconDef.icon
-                onClick={() => iconDef.onClick?.(w)}
-                className={cat(s.icon, s.iconEnd)}
-              />
-            )}
-          </div>
-        ))
-        .joinWith(() => (
-          <div className={s.hr} />
-        ))}
+          ))
+          .joinWith(() => (hWrap ? undefined : <div className={s.hr} />))}
+      </div>
     </div>
   )
 }

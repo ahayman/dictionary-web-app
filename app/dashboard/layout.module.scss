@@ -1,19 +1,41 @@
+@use '../mixins' as *;
 
 .main {
   display: flex;
   flex-direction: row;
   justify-content: start;
   align-items: start;
-  min-height: 100vh;
-  min-width: 100vw;
+  height: 100vh;
+  width: 100vw;
+  
+  @include mobile {
+    flex-direction: column;
+  }
 }
 
-.nav {
+.sideNav {
   background-color: var(--background-secondary-color);
+  height: 100vh;
+  width: auto;
+
+  @include mobile {
+    display: none;
+  }
+}
+
+.bottomNav {
+  display: none;
+  height: auto;
+  width: 100%;
+
+  @include mobile {
+    display: block;
+  }
 }
 
 .container {
-  // background-color: var(--background-color);
   align-self: stretch;
   flex-grow: 1;
+  height: 100vh;
+  overflow: scroll;
 }

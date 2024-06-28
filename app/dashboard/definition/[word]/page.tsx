@@ -3,7 +3,7 @@
 import s from "./page.module.scss"
 import { useParams } from "next/navigation"
 import useViewModel, { DefinitionResponse } from "./useViewModel"
-import AltWordList from "../../components/WordListView"
+import WordListView from "../../components/WordListView"
 import { StarIcon as OutlineStarIcon } from "@heroicons/react/24/outline"
 import { StarIcon as SolidStarIcon } from "@heroicons/react/24/solid"
 import WordDefinitionView from "./components/WordDefinitionView"
@@ -24,7 +24,20 @@ export default function DefinitionsPage() {
     if (!def) return null
     switch (def.type) {
       case "alternatives":
-        return <AltWordList words={def.altWords} onSelect={selectAlternative} />
+        return (
+          <>
+            <p className={s.altP}>
+              Could not find a definition for {def.word}. Consider one of the
+              following alternatives.
+            </p>
+            <WordListView
+              hWrap
+              title="Alternatives"
+              words={def.altWords}
+              onSelect={selectAlternative}
+            />
+          </>
+        )
       case "definition":
         return <WordDefinitionView definition={def.definition} />
     }

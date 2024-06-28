@@ -13,7 +13,7 @@ export default function DashboardDefault() {
   const [{ theme }] = useContext(ThemeContext)
   useContext(DefinitionsContext)
   const [
-    { searchEntry, loading, error, favorites, recent },
+    { searchEntry, loading, error, favorites, recent, altWords },
     {
       setSearchEntry,
       submitSearchEntry,
@@ -30,14 +30,14 @@ export default function DashboardDefault() {
 
   return (
     <div className={s.main}>
-      <div className={s["entry-container"]}>
+      <div className={s.entryContainer}>
         <div className={s.inputRow}>
           <MagnifyingGlassIcon className={s.searchIcon} />
           <h3 className={s.title}>Search</h3>
         </div>
         <form onSubmit={onSubmit}>
           <input
-            className={s["entry-input"]}
+            className={s.entryInput}
             type="text"
             value={searchEntry}
             onChange={(e) => setSearchEntry(e.target.value)}
@@ -53,6 +53,14 @@ export default function DashboardDefault() {
           {!!error && <div className={s.error}>{error}</div>}
         </form>
       </div>
+      {altWords && (
+        <WordListView
+          hWrap
+          title="Alternatives"
+          words={altWords}
+          onSelect={selectWord}
+        />
+      )}
       <div className={s.infoContainer}>
         {recent.length > 0 && (
           <div className={s.infoItem}>

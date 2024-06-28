@@ -83,7 +83,7 @@ declare global {
      * This is useful for interleaving something like a divider between items.
      * @param joiner
      */
-    joinWith(joiner: (item: T) => T): T[]
+    joinWith(joiner: (item: T) => T | undefined): T[]
 
     /**
      * Split the array into two using a function that returns either left or right for
@@ -107,6 +107,9 @@ declare global {
 
     // removes all items that match the condition
     removeWhere(match: (item: T) => boolean): number
+
+    // removes the first matching item from the array and returns it
+    removingFirst(match: (item: T) => boolean): T | undefined
 
     /**
      * Chaining operator, removes items that match and
@@ -292,6 +295,17 @@ Array.prototype.removingWhere = function removingWhere<T>(
   return arr
 }
 
+Array.prototype.removingFirst = function removingFirst<T>(
+  this: T[],
+  match: (item: T) => boolean
+): T | undefined {
+  const idx = this.findIndex(match)
+  if (idx === -1) return undefined
+  const item = this[idx]
+  this.splice(idx, 1)
+  return item
+}
+
 Array.prototype.updating = function updating<T>(
   this: T[],
   item: Partial<T> | T,
@@ -349,13 +363,16 @@ Array.prototype.upsertWhere = function upsertWhere<T>(
 
 Array.prototype.joinWith = function JoinWith<T>(
   this: T[],
-  joiner: (item: T) => T
+  joiner: (item: T) => T | undefined
 ): T[] {
   if (this.length <= 1) return this
   const joined: T[] = []
   for (const item of this.slice(0, -1)) {
     joined.push(item)
-    joined.push(joiner(item))
+    const join = joiner(item)
+    if (join) {
+      joined.push(join)
+    }
   }
   joined.push(this.last())
   return joined

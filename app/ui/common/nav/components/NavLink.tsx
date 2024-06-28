@@ -1,7 +1,7 @@
 import s from "./NavLink.module.scss"
 import Link from "next/link"
-import { Icon } from "../types"
 import { cat } from "@/app/utils/cat"
+import { Icon } from "../../types"
 
 export type Props = {
   title: string

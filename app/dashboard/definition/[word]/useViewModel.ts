@@ -11,6 +11,7 @@ export type DefinitionResponse =
   | {
       type: "alternatives"
       altWords: string[]
+      word: string
     }
 
 export type ViewState = {
@@ -62,7 +63,7 @@ export default function useViewModel(word: string): [ViewState, ViewActions] {
         setDefinition({ type: "definition", definition: result.definition })
         break
       case "alternatives":
-        setDefinition({ type: "alternatives", altWords: result.altWords })
+        setDefinition({ type: "alternatives", altWords: result.altWords, word })
         break
       case "error":
         setErrot(result.message)

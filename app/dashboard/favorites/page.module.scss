@@ -3,4 +3,34 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  padding: 10pt;
+  margin: 10pt;
+}
+
+.icon {
+  width: 18pt;
+  height: 18pt;
+  margin-right: 10pt;
+}
+
+.favoriteIcon {
+  color: var(--accent-color);
+}
+
+.unFavoriteIcon {
+  color: var(--foreground-color-dim);
+}
+
+.titleBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-secondary-color);
+  padding: 10pt;
+  margin-bottom: 20pt;
+}
+
+.title {
+  font-size: 18pt;
 }

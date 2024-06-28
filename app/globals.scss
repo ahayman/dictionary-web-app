@@ -4,6 +4,12 @@
     --background-color: #122731;
     --background-secondary-color: #091418;
     --input-background: #2a3336;
+    --foreground-color-1: #d6dbdc90;
+    --foreground-color-2: #d6dbdc80;
+    --foreground-color-3: #d6dbdc70;
+    --foreground-color-4: #d6dbdc60;
+    --foreground-color-5: #d6dbdc50;
+    --foreground-color-6: #d6dbdc40;
 
     --primary-glow: radial-gradient(#0141ff66, #0141ff00);
     --secondary-glow: linear-gradient(
@@ -11,18 +17,6 @@
       #0141ff00,
       #0141ff00,
       #0141ff4d
-    );
-
-    --tile-start-color: #020d2e;
-    --tile-end-color: #020513;
-    --tile-border: conic-gradient(
-      #ffffff80,
-      #ffffff40,
-      #ffffff30,
-      #ffffff20,
-      #ffffff10,
-      #ffffff10,
-      #ffffff80
     );
 
     --callout-color: #141414;
@@ -47,6 +41,12 @@
   --background-color: #d6dbdc;
   --background-secondary-color: #fff;
   --input-background: #f1f3f4;
+  --foreground-color-1: #12273190;
+  --foreground-color-2: #12273180;
+  --foreground-color-3: #12273170;
+  --foreground-color-4: #12273160;
+  --foreground-color-5: #12273150;
+  --foreground-color-6: #12273140;
 
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
@@ -59,18 +59,6 @@
   --secondary-glow: radial-gradient(
     #ffffff,
     #ffffff00
-  );
-
-  --tile-start-color: #eff5f9;
-  --tile-end-color: #e4e8e9;
-  --tile-border: conic-gradient(
-    #00000080,
-    #00000040,
-    #00000030,
-    #00000020,
-    #00000010,
-    #00000010,
-    #00000080
   );
 
   --callout-color: #eef0f1;

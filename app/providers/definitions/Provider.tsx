@@ -11,6 +11,7 @@ import {
   State,
   WordDefMeta,
   WordDefinition,
+  WordMetaCache,
   WordSearchResult,
 } from "./types"
 import { Storage } from "@/app/utils/Storage"
@@ -23,13 +24,21 @@ export type Props = {
   children: ReactNode
 }
 
-export const GetStoredMeta = (
-  type: "recent-words" | "favorite-words"
-): WordDefMeta[] => {
-  const json = Storage.get(type)
+export const GetStoredFavorites = (): WordDefMeta[] => {
+  const json = Storage.get("favorite-words")
   if (json === undefined) return []
   const meta: WordDefMeta[] = JSON.parse(json)
   return meta
+}
+
+export const GetStoredRecent = (): string[] => {
+  const json = Storage.get("recent-words")
+  if (json === undefined) return []
+  let data = JSON.parse(json) as any[]
+  if (data.length > 0 && typeof data[0] === "object") {
+    data = data.map((d) => d.word)
+  }
+  return data
 }
 
 const InitialState: State = {
@@ -37,6 +46,22 @@ const InitialState: State = {
   favorites: [],
   popular: [],
   cache: {},
+  metaCache: {},
+}
+
+const getInitialStateFromStorage = (): State => {
+  const recent = GetStoredRecent()
+  const favorites = GetStoredFavorites()
+  const metaCache: WordMetaCache = {}
+  favorites.forEach((m) => (metaCache[m.word] = m))
+  return {
+    recent,
+    favorites,
+    currentWord: Storage.get("current-word"),
+    popular: [],
+    cache: {},
+    metaCache,
+  }
 }
 
 export default function Provider({ children }: Props) {
@@ -44,26 +69,27 @@ export default function Provider({ children }: Props) {
   const [state, dispatch] = useReducer(
     Reducer,
     typeof window === "undefined",
-    (isServer) =>
-      isServer
-        ? InitialState
-        : {
-            recent: GetStoredMeta("recent-words"),
-            favorites: GetStoredMeta("favorite-words"),
-            currentWord: Storage.get("current-word"),
-            popular: [],
-            cache: {},
-          }
+    (isServer) => (isServer ? InitialState : getInitialStateFromStorage())
   )
 
   const searchWordDefinition = useCallback(
     async (word: string): Promise<WordSearchResult> => {
+      if (word.length > 100) {
+        return {
+          result: "error",
+          message:
+            "To many characters: Please search for a word less than 100 characters long.",
+        }
+      }
+
       const cached = state.cache[word]
-      if (cached !== undefined)
+      if (cached !== undefined) {
+        dispatch({ type: "add-recent-word", word })
         return {
           result: "definition",
           definition: cached,
         }
+      }
 
       const result = await getWordDefinition(word)
       switch (result.status) {

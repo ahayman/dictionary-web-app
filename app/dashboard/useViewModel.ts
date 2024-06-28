@@ -28,14 +28,13 @@ export default function useViewModel(): [ViewState, ViewActions] {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string>()
   const [
-    { cache, favorites: favoriteDefs, recent: recentDefs },
+    { favorites: favoriteDefs, recent },
     { searchWordDefinition, setFavorite, removeRecentWord },
   ] = useContext(DefinitionsContext)
   const favorites = useMemo(
     () => favoriteDefs.map((f) => f.word),
     [favoriteDefs]
   )
-  const recent = useMemo(() => recentDefs.map((r) => r.word), [recentDefs])
 
   const setSearchEntry = useCallback(
     (word: string) => {
@@ -54,15 +53,6 @@ export default function useViewModel(): [ViewState, ViewActions] {
       }
       setLoading(true)
 
-      const navigateTo = (word: string) => {
-        nav.push({ route: "definition", word })
-      }
-
-      const cachedEntry = cache[word]
-      if (cachedEntry) {
-        navigateTo(cachedEntry.word)
-      }
-
       const result = await searchWordDefinition(word)
       switch (result.result) {
         case "alternatives":
@@ -74,7 +64,7 @@ export default function useViewModel(): [ViewState, ViewActions] {
           }
           break
         case "definition":
-          navigateTo(result.definition.word)
+          nav.push({ route: "definition", word })
           break
         case "error":
           setError(result.message)
@@ -82,7 +72,7 @@ export default function useViewModel(): [ViewState, ViewActions] {
       }
       setLoading(false)
     },
-    [cache, loading, nav, searchWordDefinition]
+    [loading, nav, searchWordDefinition]
   )
 
   const submitSearchEntry = useCallback(
@@ -96,7 +86,14 @@ export default function useViewModel(): [ViewState, ViewActions] {
   )
 
   return [
-    { searchEntry, altWords, loading, error, favorites, recent },
+    {
+      searchEntry,
+      altWords,
+      loading,
+      error,
+      favorites,
+      recent: recent.slice(0, 10),
+    },
     {
       setSearchEntry,
       submitSearchEntry,

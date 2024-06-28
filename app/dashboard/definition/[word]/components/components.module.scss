@@ -1,0 +1,85 @@
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 10pt;
+}
+
+.fl {
+  color: var(--foreground-color-2);
+}
+
+.flTitle {
+  margin-right: 5pt;
+}
+
+.sn {
+  text-align: end;
+  margin-top: 4pt;
+  margin-right: 5pt;
+  width: 20pt;
+  color: var(--foreground-color-2)
+}
+
+.vis {
+  margin-left: 5pt;
+  margin-bottom: 2pt;
+  color: var(--foreground-color-1)
+}
+
+.senseRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.senseColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.unsText {
+  margin-left: 5pt;
+  margin-top: 2pt;
+  font-size: small;
+}
+
+.dtText {
+  margin-left: 5pt;
+  font-size: medium;
+  margin-top: 4pt;
+}
+
+.shortDef {
+  // background-color: beige;
+  margin-bottom: 3pt;
+}
+
+.majorDescriptor {
+  font-size: medium;
+  // font-weight: bold;
+}
+
+.groupingContainer {
+  padding: 0pt 10pt;
+}
+
+.majorContainer {
+  padding: 10pt;
+}
+
+.hr {
+  height: 1pt;
+  align-self: stretch;
+  width: 100%;
+  background-color: var(--foreground-color-dim);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}

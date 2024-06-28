@@ -1,3 +1,4 @@
+@use '../../../../mixins' as *;
 
 .selectedForeground {
   color: var(--on-accent-color);
@@ -22,6 +23,8 @@
   padding: 5pt;
   border-radius: 5pt;
   margin-bottom: 10pt;
+  margin-left: 2pt;
+  margin-right: 2pt;
   align-self: stretch;
 }
 
@@ -29,6 +32,11 @@
   text-align: center;
   width: 35pt;
   height: 35pt;
+
+  @include mobile {
+    width: 20pt;
+    height: 20pt;
+  }
 }
 
 .title {

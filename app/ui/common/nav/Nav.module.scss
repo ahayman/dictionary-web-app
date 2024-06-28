@@ -1,17 +1,31 @@
+@use '../../../mixins' as *;
+
 .main {
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: center;
   padding: 6pt;
-  min-height: 100vh;
+  height: 100vh;
+
+  @include mobile {
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+  }
 }
 
 .logo {
   margin-bottom: 20pt;
 }
 
-.vSpacer {
+.mobileSpacer {
+  @include mobile {
+      flex-grow: 1;
+    }
+}
+
+.spacer {
   flex-grow: 1;
 }
 
@@ -35,6 +49,12 @@
   width: 35pt;
   height: 35pt;
   color: var(--foreground-color);
+
+  @include mobile {
+    width: 20pt;
+    height: 20pt;
+  }
+
 }
 
 .themeButton {

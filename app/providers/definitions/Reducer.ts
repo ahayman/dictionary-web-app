@@ -35,30 +35,28 @@ export type Action =
 export const Reducer = (state: State, action: Action): State => {
   switch (action.type) {
     case "add-recent-word": {
-      const wordMeta =
-        state.recent.find((r) => r.word === action.word) ??
-        extractWordMeta(action.word, state.cache)
-      if (wordMeta === undefined) return state
       const recent = state.recent
-        .removingWhere((r) => r.word === action.word)
-        .slice(0, 19)
-      return { ...state, recent: [wordMeta, ...recent] }
+        .removingWhere((r) => r === action.word)
+        .slice(0, 29)
+      return { ...state, recent: [action.word, ...recent] }
     }
     case "remove-recent-word": {
       const recent = [...state.recent]
-      recent.removeWhere((r) => r.word === action.word)
+      recent.removeWhere((r) => r === action.word)
       return { ...state, recent }
     }
     case "favorite-word": {
-      let wordMeta = state.favorites.find((r) => r.word === action.word)
-      if (wordMeta !== undefined) return state //Already favorited
-      wordMeta = extractWordMeta(action.word, state.cache)
+      let wordMeta =
+        state.metaCache[action.word] ??
+        state.favorites.find((r) => r.word === action.word) ??
+        extractWordMeta(action.word, state.cache)
       if (wordMeta === undefined) return state //Nothing to favorite
       const favorites = [...state.favorites, wordMeta].sortOn(
         "asc",
         (w) => w.word
       )
-      return { ...state, favorites }
+      const metaCache = { ...state.metaCache, [action.word]: wordMeta }
+      return { ...state, favorites, metaCache }
     }
     case "unfavorite-word": {
       let favorites = [...state.favorites]

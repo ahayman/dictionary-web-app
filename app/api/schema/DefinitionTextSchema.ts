@@ -12,6 +12,7 @@ export const DefinitionTextItemSchema = Type.Tuple(
       "Primary Definition Text. Should always be present within a definition text.",
   }
 )
+export type DefinitionTextItem = Static<typeof DefinitionTextItemSchema>
 
 export const DefinitionTextVisSchema = Type.Tuple(
   [Type.Literal("vis"), Type.Array(VerbalIllustrationSchema)],
@@ -20,6 +21,7 @@ export const DefinitionTextVisSchema = Type.Tuple(
       "Visual Illustration. Generally, text that provides an example of the definition within some context.",
   }
 )
+export type DefinitionTextVis = Static<typeof DefinitionTextVisSchema>
 
 export const DefinitionTextBNWSchema = Type.Tuple(
   [Type.Literal("bnw"), BiographicalNameWrapSchema],
@@ -27,6 +29,7 @@ export const DefinitionTextBNWSchema = Type.Tuple(
     description: "Biographical information for an entry.",
   }
 )
+export type DefinitionTextBNW = Static<typeof DefinitionTextBNWSchema>
 
 export const DefinitionTextRunInSchema = Type.Tuple(
   [
@@ -37,6 +40,7 @@ export const DefinitionTextRunInSchema = Type.Tuple(
     description: "Adjacent information to the entry.",
   }
 )
+export type DefinitionTextRunIn = Static<typeof DefinitionTextRunInSchema>
 
 export const DefinitionTextSnoteSchema = Type.Tuple(
   [
@@ -53,6 +57,7 @@ export const DefinitionTextSnoteSchema = Type.Tuple(
     description: "A supplimental note.",
   }
 )
+export type DefinitionTextSnote = Static<typeof DefinitionTextSnoteSchema>
 
 export const DefinitionTextUsageNoteSchema = Type.Tuple(
   [
@@ -71,6 +76,9 @@ export const DefinitionTextUsageNoteSchema = Type.Tuple(
     description: "Usage information for the entry.",
   }
 )
+export type DefinitionTextUsageNote = Static<
+  typeof DefinitionTextUsageNoteSchema
+>
 
 export const DefinitionTextSchema = Type.Array(
   Type.Union([

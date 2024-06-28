@@ -35,7 +35,7 @@ export type ViewActions = {
 export default function useViewModel(): [ViewState, ViewActions] {
   const [{ theme }, { toggleTheme }] = useContext(ThemeContext)
   const [, { clearApiKey }] = useContext(AuthContext)
-  const [{ currentWord, favorites, recent }] = useContext(DefinitionsContext)
+  const [{ currentWord, favorites }] = useContext(DefinitionsContext)
   const [confirmSignout, setConfirmSignout] = useState(false)
   const navItems: NavItem[] = useMemo(
     () =>
@@ -52,13 +52,6 @@ export default function useViewModel(): [ViewState, ViewActions] {
               route: { route: "favorites" },
             }
           : undefined,
-        recent.length > 0
-          ? {
-              title: "Recent",
-              icon: ClockIcon,
-              route: { route: "recent" },
-            }
-          : undefined,
         currentWord
           ? {
               title:
@@ -73,7 +66,7 @@ export default function useViewModel(): [ViewState, ViewActions] {
             }
           : undefined,
       ].filter(isNotEmpty) as NavItem[],
-    [currentWord, favorites, recent]
+    [currentWord, favorites]
   )
 
   const signout = useCallback(() => setConfirmSignout(true), [])

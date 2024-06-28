@@ -19,12 +19,14 @@ export type WordDefinition = {
 }
 
 export type WordDefinitionCache = { [word: string]: WordDefinition | undefined }
+export type WordMetaCache = { [word: string]: WordDefMeta | undefined }
 
 export type State = {
-  recent: WordDefMeta[]
+  recent: string[]
   favorites: WordDefMeta[]
   popular: WordDefMeta[]
   cache: WordDefinitionCache
+  metaCache: WordMetaCache
   currentWord?: string
 }
 

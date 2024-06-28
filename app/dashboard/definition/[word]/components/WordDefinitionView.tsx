@@ -1,5 +1,5 @@
 import { WordDefinition } from "@/app/providers/definitions/types"
-import s from "./WordDefinitionView.module.scss"
+import s from "./components.module.scss"
 import DefinitionResponseView from "./DefinitionResponseView"
 
 export type Props = {

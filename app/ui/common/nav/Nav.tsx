@@ -32,17 +32,23 @@ export default function Nav() {
         priority
       />
 
-      {navItems.map(({ title, icon, route }) => (
-        <NavLink
-          key={title}
-          title={title}
-          icon={icon}
-          href={nav.routeHref(route)}
-          selected={path?.endsWith(nav.routeHref(route))}
-        />
-      ))}
+      <div className={s.mobileSpacer} />
 
-      <div className={s.vSpacer} />
+      {navItems
+        .map(({ title, icon, route }) => (
+          <NavLink
+            key={title}
+            title={title}
+            icon={icon}
+            href={nav.routeHref(route)}
+            selected={path?.endsWith(nav.routeHref(route))}
+          />
+        ))
+        .joinWith(() => (
+          <div className={s.mobileSpacer} />
+        ))}
+
+      <div className={s.spacer} />
       {!confirmSignout && (
         <button className={s.signoutButton} onClick={signout}>
           <ArrowLeftStartOnRectangleIcon className={s.signoutIcon} />

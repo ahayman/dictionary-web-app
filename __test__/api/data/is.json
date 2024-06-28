@@ -1,0 +1,1319 @@
+[
+  {
+    "meta": {
+      "id": "is:1",
+      "uuid": "b0f8e3dc-7915-4e89-bf9d-ce24711f3f2c",
+      "sort": "092986000",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "be",
+        "is"
+      ],
+      "offensive": false
+    },
+    "hom": 1,
+    "hwi": {
+      "hw": "is"
+    },
+    "cxs": [
+      {
+        "cxl": "present tense third-person singular of",
+        "cxtis": [
+          {
+            "cxt": "be"
+          }
+        ]
+      },
+      {
+        "cxl": "dialectal present tense first-person and third-person singular of",
+        "cxtis": [
+          {
+            "cxt": "be"
+          }
+        ]
+      },
+      {
+        "cxl": "dialectal present tense plural of",
+        "cxtis": [
+          {
+            "cxt": "be"
+          }
+        ]
+      }
+    ],
+    "et": [
+      [
+        "text",
+        "Middle English, from Old English; akin to Old High German {it}ist{/it} is (from {it}sīn{/it} to be), Latin {it}est{/it} (from {it}esse{/it} to be), Greek {it}esti{/it} (from {it}einai{/it} to be)"
+      ]
+    ],
+    "shortdef": []
+  },
+  {
+    "meta": {
+      "id": "is:2",
+      "uuid": "e78f6275-c1c7-494e-8d26-075994a62336",
+      "sort": "092987000",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "is"
+      ],
+      "offensive": false
+    },
+    "hom": 2,
+    "hwi": {
+      "hw": "is"
+    },
+    "fl": "abbreviation",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "island; isle"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "shortdef": [
+      "island; isle"
+    ]
+  },
+  {
+    "meta": {
+      "id": "IS",
+      "uuid": "ecfb5c89-72cb-4de9-9557-88be070e85f7",
+      "sort": "092988000",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "IS"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "IS"
+    },
+    "fl": "abbreviation",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "information system"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "shortdef": [
+      "information system"
+    ]
+  },
+  {
+    "meta": {
+      "id": "is-",
+      "uuid": "338e16b2-976d-43bf-9f9a-061a04e9a81b",
+      "sort": "092989000",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "is-",
+        "iso-"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "is-"
+    },
+    "vrs": [
+      {
+        "vl": "or",
+        "va": "iso-"
+      }
+    ],
+    "fl": "combining form",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}equal {bc}homogeneous {bc}uniform "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "{it}is{/it}entropic"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}isomeric "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "{it}iso{/it}cyanate"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "3",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}for or from different individuals of the same species "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "{it}iso{/it}agglutinin"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "et": [
+      [
+        "text",
+        "Late Latin, from Greek, from {it}isos{/it} equal"
+      ]
+    ],
+    "shortdef": [
+      "equal : homogeneous : uniform",
+      "isomeric",
+      "for or from different individuals of the same species"
+    ]
+  },
+  {
+    "meta": {
+      "id": "be",
+      "uuid": "97954a00-8172-4294-9481-25134a789ce6",
+      "sort": "020109500",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "am",
+        "are",
+        "be",
+        "been",
+        "being",
+        "is",
+        "was",
+        "were"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "be",
+      "prs": [
+        {
+          "mw": "ˈbē",
+          "sound": {
+            "audio": "be000001",
+            "ref": "c",
+            "stat": "1"
+          }
+        }
+      ]
+    },
+    "fl": "verb",
+    "ins": [
+      {
+        "il": "past tense first- and third-person singular",
+        "if": "was",
+        "prs": [
+          {
+            "mw": "ˈwəz",
+            "sound": {
+              "audio": "be000002",
+              "ref": "c",
+              "stat": "1"
+            }
+          },
+          {
+            "mw": "ˈwäz"
+          }
+        ]
+      },
+      {
+        "il": "past tense second-person singular",
+        "if": "were",
+        "prs": [
+          {
+            "mw": "ˈwər",
+            "sound": {
+              "audio": "were0003",
+              "ref": "c",
+              "stat": "1"
+            }
+          }
+        ]
+      },
+      {
+        "il": "past tense plural",
+        "if": "were"
+      },
+      {
+        "il": "past subjunctive",
+        "if": "were"
+      },
+      {
+        "il": "past participle",
+        "if": "been",
+        "prs": [
+          {
+            "mw": "ˈbin",
+            "sound": {
+              "audio": "be000004",
+              "ref": "c",
+              "stat": "1"
+            }
+          },
+          {
+            "mw": "ˈben",
+            "sound": {
+              "audio": "ben00001",
+              "ref": "c",
+              "stat": "1"
+            }
+          },
+          {
+            "l": "chiefly British",
+            "mw": "ˈbēn",
+            "sound": {
+              "audio": "bean0001",
+              "ref": "c",
+              "stat": "1"
+            }
+          }
+        ]
+      },
+      {
+        "il": "present participle",
+        "if": "be*ing",
+        "prs": [
+          {
+            "mw": "ˈbē(-i)ŋ",
+            "sound": {
+              "audio": "be000005",
+              "ref": "c",
+              "stat": "1"
+            }
+          }
+        ]
+      },
+      {
+        "il": "present tense first-person singular",
+        "if": "am",
+        "prs": [
+          {
+            "mw": "əm"
+          },
+          {
+            "mw": "ˈam",
+            "sound": {
+              "audio": "be000006",
+              "ref": "c",
+              "stat": "1"
+            }
+          }
+        ]
+      },
+      {
+        "il": "present tense second-person singular",
+        "if": "are",
+        "prs": [
+          {
+            "mw": "ˈär",
+            "sound": {
+              "audio": "be000007",
+              "ref": "c",
+              "stat": "1"
+            }
+          },
+          {
+            "mw": "ər"
+          }
+        ]
+      },
+      {
+        "il": "present tense third-person singular",
+        "if": "is",
+        "prs": [
+          {
+            "mw": "ˈiz",
+            "sound": {
+              "audio": "be000008",
+              "ref": "c",
+              "stat": "1"
+            }
+          },
+          {
+            "mw": "əz"
+          }
+        ]
+      },
+      {
+        "il": "present tense plural",
+        "if": "are"
+      },
+      {
+        "il": "present subjunctive",
+        "if": "be"
+      }
+    ],
+    "def": [
+      {
+        "vd": "intransitive verb",
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1 a",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}to equal in meaning {bc}have the same connotation as {bc}{sx|symbolize||} "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "January {it}is{/it} the first month"
+                      },
+                      {
+                        "t": "let {it}x{/it} {wi}be{/wi} 10"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}to have identity with {bc}to constitute the same idea or object as "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "The first person I met {it}was{/it} my brother."
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "c",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}to constitute the same class as "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "These three books {it}are{/it} the authoritative works on the president's life."
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "d",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}to have a specified qualification or characterization "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "The leaves {it}are{/it} green."
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "e",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}to belong to the class of "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "the fish {it}is{/it} a trout"
+                      },
+                      {
+                        "t": "Keeping this room clean {it}is{/it} your responsibility."
+                      }
+                    ]
+                  ],
+                  [
+                    "uns",
+                    [
+                      [
+                        [
+                          "text",
+                          "used regularly in senses 1a through 1e as the copula of simple predication"
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2 a",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}to have an objective existence {bc}have reality or actuality {bc}{sx|live||} "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "I think, therefore I {it}am{/it}."
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}to have, maintain, or occupy a place, situation, or position "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "the book {it}is{/it} on the table"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "c",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}to remain unmolested, undisturbed, or uninterrupted "
+                  ],
+                  [
+                    "uns",
+                    [
+                      [
+                        [
+                          "text",
+                          "used only in infinitive form "
+                        ],
+                        [
+                          "vis",
+                          [
+                            {
+                              "t": "Let him {wi}be{/wi}."
+                            }
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "d",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}to take place {bc}{sx|occur||} "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "The concert {it}was{/it} last night."
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "e",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}to come or go "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "has already {it}been{/it} and gone"
+                      },
+                      {
+                        "t": "has never {it}been{/it} to the circus"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "f",
+                "sls": [
+                  "archaic"
+                ],
+                "dt": [
+                  [
+                    "text",
+                    "{bc}{sx|belong||}, {sx|befall||} "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "… to thine and Albany's issue {wi}be{/wi} this perpetual.",
+                        "aq": {
+                          "auth": "William Shakespeare"
+                        }
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      },
+      {
+        "vd": "auxiliary verb",
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1",
+                "dt": [
+                  [
+                    "uns",
+                    [
+                      [
+                        [
+                          "text",
+                          "used with the past participle of transitive verbs as a passive-voice auxiliary "
+                        ],
+                        [
+                          "vis",
+                          [
+                            {
+                              "t": "The money {it}was{/it} found."
+                            },
+                            {
+                              "t": "The house is {it}being{/it} built."
+                            }
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2",
+                "dt": [
+                  [
+                    "uns",
+                    [
+                      [
+                        [
+                          "text",
+                          "used as the auxiliary of the present participle in progressive tenses expressing continuous action "
+                        ],
+                        [
+                          "vis",
+                          [
+                            {
+                              "t": "He {it}is{/it} reading."
+                            },
+                            {
+                              "t": "I have {it}been{/it} sleeping."
+                            }
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "3",
+                "dt": [
+                  [
+                    "uns",
+                    [
+                      [
+                        [
+                          "text",
+                          "used with the past participle of some intransitive verbs as an auxiliary forming archaic perfect tenses "
+                        ],
+                        [
+                          "vis",
+                          [
+                            {
+                              "t": "… Christ {it}is{/it} risen from the dead …",
+                              "aq": {
+                                "source": "1 Corinthians 15:20 (Douay Version)"
+                              }
+                            }
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "4",
+                "dt": [
+                  [
+                    "uns",
+                    [
+                      [
+                        [
+                          "text",
+                          "used with {it}to{/it} + infinitive to express futurity, arrangement in advance, or obligation "
+                        ],
+                        [
+                          "vis",
+                          [
+                            {
+                              "t": "I {it}am{/it} to interview him today."
+                            },
+                            {
+                              "t": "She {it}was{/it} to become famous."
+                            }
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "5",
+                "dt": [
+                  [
+                    "uns",
+                    [
+                      [
+                        [
+                          "text",
+                          "used in the uninflected form {it}be{/it} in {d_link|African American English|African American English} and to varying degrees in some other varieties of English to indicate that an action or state is habitual or frequent "
+                        ],
+                        [
+                          "vis",
+                          [
+                            {
+                              "t": "I {wi}be{/wi} singing in the shower."
+                            },
+                            {
+                              "t": "… they {wi}be{/wi} bothering you while you try and do your work. …",
+                              "aq": {
+                                "auth": "unidentified African American English speaker",
+                                "source": "quoted in {it}The Corpus of Regional African American Language{/it}"
+                              }
+                            }
+                          ]
+                        ]
+                      ]
+                    ]
+                  ],
+                  [
+                    "snote",
+                    [
+                      [
+                        "t",
+                        "In linguistics, this use of {it}be{/it} is referred to as {i_link|aspectual be|aspectual be}, {i_link|habitual be|habitual be}, or {i_link|invariant be|invariant be}."
+                      ]
+                    ]
+                  ],
+                  [
+                    "text",
+                    "{dx}compare {dxt|BEEN|BEEN|}{/dx}"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "et": [
+      [
+        "text",
+        "Middle English, from Old English {it}bēon{/it}; akin to Old High German {it}bim{/it} am, Latin {it}fui{/it} I have been, {it}futurus{/it} about to be, {it}fieri{/it} to become, be done, Greek {it}phynai{/it} to be born, be by nature, {it}phyein{/it} to produce"
+      ]
+    ],
+    "date": "before 12th century{ds|i|1|a|}",
+    "shortdef": [
+      "to equal in meaning : have the same connotation as : symbolize",
+      "to have identity with : to constitute the same idea or object as",
+      "to constitute the same class as"
+    ]
+  },
+  {
+    "meta": {
+      "id": "i:1",
+      "uuid": "15dba32c-cb0f-49a2-801e-3c62d9bfd356",
+      "sort": "090001000",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "i",
+        "i's",
+        "is"
+      ],
+      "offensive": false
+    },
+    "hom": 1,
+    "hwi": {
+      "hw": "i",
+      "prs": [
+        {
+          "mw": "ˈī",
+          "sound": {
+            "audio": "i0000001",
+            "ref": "c",
+            "stat": "1"
+          }
+        }
+      ]
+    },
+    "fl": "noun",
+    "ins": [
+      {
+        "il": "plural",
+        "if": "i's"
+      },
+      {
+        "il": "or",
+        "if": "is",
+        "prs": [
+          {
+            "mw": "ˈīz",
+            "sound": {
+              "audio": "i0000002",
+              "ref": "c",
+              "stat": "1"
+            }
+          }
+        ]
+      }
+    ],
+    "lbs": [
+      "often capitalized",
+      "often attributive"
+    ],
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1 a",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}the 9th letter of the English alphabet"
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a graphic representation of this letter"
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "c",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a speech counterpart of orthographic {it}i{/it}"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}{sx|one||} {dx}see {dxt|Table of Numbers|number|table}{/dx}"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "3",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a graphic device for reproducing the letter {it}i{/it}"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "4",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}one designated {it}i{/it} especially as the ninth in order or class"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "5",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}something shaped like the letter I"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "6",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a unit vector parallel to the x-axis"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sen",
+              {
+                "sn": "7",
+                "et": [
+                  [
+                    "text",
+                    "abbreviation for {it}incomplete{/it}"
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "a",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a grade rating a student's work as incomplete"
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}one graded or rated with an I"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "8",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}{sx|i formation|I formation|}"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "date": "before 12th century{ds||1|a|}",
+    "shortdef": [
+      "the 9th letter of the English alphabet",
+      "a graphic representation of this letter",
+      "a speech counterpart of orthographic i"
+    ]
+  },
+  {
+    "meta": {
+      "id": "I:2",
+      "uuid": "a9ceb4f3-9f51-4157-8a62-9c4e57e6969c",
+      "sort": "090005000",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "I",
+        "I's",
+        "Is"
+      ],
+      "offensive": false
+    },
+    "hom": 2,
+    "hwi": {
+      "hw": "I",
+      "prs": [
+        {
+          "mw": "ˈī",
+          "sound": {
+            "audio": "i0000001",
+            "ref": "c",
+            "stat": "1"
+          }
+        }
+      ]
+    },
+    "fl": "noun",
+    "ins": [
+      {
+        "il": "plural",
+        "if": "I's"
+      },
+      {
+        "il": "or",
+        "if": "Is",
+        "prs": [
+          {
+            "mw": "ˈīz",
+            "sound": {
+              "audio": "i0000002",
+              "ref": "c",
+              "stat": "1"
+            }
+          }
+        ]
+      }
+    ],
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}someone aware of possessing a personal individuality {bc}{sx|self||}"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "date": "1539",
+    "shortdef": [
+      "someone aware of possessing a personal individuality : self"
+    ]
+  },
+  {
+    "meta": {
+      "id": "Isa",
+      "uuid": "f9bd4f5d-a668-4f26-a50f-79a7e8cd06ab",
+      "sort": "092990000",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "Is",
+        "Isa"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "Isa"
+    },
+    "vrs": [
+      {
+        "vl": "or",
+        "va": "Is"
+      }
+    ],
+    "fl": "abbreviation",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "Isaiah"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "shortdef": [
+      "Isaiah"
+    ]
+  },
+  {
+    "meta": {
+      "id": "is it not the case",
+      "uuid": "acb06deb-ffb9-4f61-a935-f91044418dad",
+      "sort": "3010136000",
+      "src": "ld",
+      "section": "idioms",
+      "stems": [
+        "is it not the case"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "is it not the case"
+    },
+    "fl": "idiom",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}isn't it true "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "{it}Is it not the case{/it} that she took the car without permission?"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "shortdef": [
+      "isn't it true"
+    ]
+  },
+  {
+    "meta": {
+      "id": "is nowhere to be found",
+      "uuid": "4a794ad6-6c0b-4247-a56b-c60294050989",
+      "sort": "3010137000",
+      "src": "ld",
+      "section": "idioms",
+      "stems": [
+        "is nowhere to be found"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "is nowhere to be found"
+    },
+    "fl": "idiom",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}cannot be found "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "The book {it}was nowhere to be found{/it}."
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "shortdef": [
+      "cannot be found"
+    ]
+  }
+]
