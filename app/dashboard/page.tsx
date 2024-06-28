@@ -45,6 +45,7 @@ export default function DashboardDefault() {
           <input
             className={s.submit}
             type="submit"
+            value="Search"
             disabled={loading || !searchEntry}
           />
           {loading && (

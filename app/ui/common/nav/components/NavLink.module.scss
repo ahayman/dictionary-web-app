@@ -30,10 +30,12 @@
   @include mobile {
     margin-bottom: 0pt;
     align-self: center;
+    min-width: 50pt;
   }
 }
 
 .linkIcon {
+  color: var(--foreground-color);
   text-align: center;
   width: 35pt;
   height: 35pt;
@@ -46,5 +48,6 @@
 
 .title {
   text-align: center;
+  color: var(--foreground-color);
 }
 

@@ -17,6 +17,7 @@ import {
 import { Storage } from "@/app/utils/Storage"
 import { Reducer } from "./Reducer"
 import { APIContext } from "../api/Provider"
+import { AuthContext } from "../auth/Provider"
 
 export const DefinitionsContext = createContext<Context>([] as any)
 
@@ -66,6 +67,7 @@ const getInitialStateFromStorage = (): State => {
 
 export default function Provider({ children }: Props) {
   const { getWordDefinition } = useContext(APIContext)
+  const [{ apiKey }] = useContext(AuthContext)
   const [state, dispatch] = useReducer(
     Reducer,
     typeof window === "undefined",
@@ -148,6 +150,14 @@ export default function Provider({ children }: Props) {
   useEffect(() => {
     Storage.set("recent-words", JSON.stringify(state.recent))
   }, [state.recent])
+
+  useEffect(() => {
+    if (apiKey === undefined) {
+      Storage.set("recent-words")
+      Storage.set("favorite-words")
+      Storage.set("current-word")
+    }
+  }, [apiKey])
 
   return (
     <DefinitionsContext.Provider

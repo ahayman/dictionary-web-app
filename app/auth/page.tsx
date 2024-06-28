@@ -59,6 +59,12 @@ export default function AuthPage() {
           </>
         )}
       </div>
+      <p className={styles.register}>
+        Register for a free developr API at{" "}
+        <a href="https://dictionaryapi.com/" target="_blank">
+          https://dictionaryapi.com/
+        </a>
+      </p>
     </div>
   )
 }

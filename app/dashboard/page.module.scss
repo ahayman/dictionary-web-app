@@ -10,6 +10,7 @@
   height: 100%;
   width: 100%;
   padding: 10pt;
+  overflow: scroll;
 
   @include mobile {
     flex-direction: column-reverse;
@@ -75,8 +76,10 @@
 
   @include mobile {
     flex-direction: column;
-    justify-content: end;
+    justify-content: start;
     align-items: center;
+    overflow: scroll;
+    max-height: 100%;
   }
 }
 

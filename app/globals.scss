@@ -13,6 +13,7 @@
     --foreground-color-4: #d6dbdc60;
     --foreground-color-5: #d6dbdc50;
     --foreground-color-6: #d6dbdc40;
+    --link-color: #1377db;
 
     --primary-glow: radial-gradient(#0141ff66, #0141ff00);
     --secondary-glow: linear-gradient(
@@ -51,6 +52,7 @@
   --foreground-color-4: #12273160;
   --foreground-color-5: #12273150;
   --foreground-color-6: #12273140;
+  --link-color: #004990;
 
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
@@ -108,7 +110,7 @@ input[type="text"], input[type="submit"], textarea {
 }
 
 a {
-  color: inherit;
+  color: var(--link-color);
   text-decoration: none;
 }
 

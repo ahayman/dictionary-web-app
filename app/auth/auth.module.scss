@@ -5,7 +5,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  height: 100dvh;
+  width: 100dvw;
+  background: linear-gradient(
+    to bottom,
+    var(--background-color),
+    var(--background-secondary-color-2)
+  );
+}
+
+.register{
+  margin-top: 10pt;
 }
 
 .subText {
@@ -20,6 +30,7 @@
 
   @include mobile {
     min-width: 150pt;
+    width: 100%;
   }
 }
 
