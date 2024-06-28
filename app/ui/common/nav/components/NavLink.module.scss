@@ -26,6 +26,11 @@
   margin-left: 2pt;
   margin-right: 2pt;
   align-self: stretch;
+  
+  @include mobile {
+    margin-bottom: 0pt;
+    align-self: center;
+  }
 }
 
 .linkIcon {

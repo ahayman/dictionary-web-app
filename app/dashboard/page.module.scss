@@ -7,7 +7,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  padding: 10pt;
+
+  @include mobile {
+    flex-direction: column-reverse;
+    padding: 5pt;
+  }
 }
 
 .title {
@@ -22,6 +29,10 @@
   border-radius: 10pt;
   padding: 16pt;
   margin-bottom: 10pt;
+
+  @include mobile {
+    padding: 5pt;
+  }
 }
 
 .inputRow {
@@ -42,12 +53,12 @@
 }
 
 .entryInput {
-  min-width: 250pt;
+  min-width: 350pt;
   margin-bottom: 10pt;
   padding: 5pt 5pt;
   
   @include mobile {
-    min-width: 150pt;
+    min-width: 100%;
   }
 }
 
@@ -69,5 +80,5 @@
 
 .infoItem {
   margin: 10pt;
-  min-width: 200pt;
+  min-width: 250pt;
 }

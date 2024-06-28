@@ -1,6 +1,6 @@
 "use client"
 import Image from "next/image"
-import styles from "./page.module.css"
+import styles from "./page.module.scss"
 import { useContext, useEffect } from "react"
 import { AuthContext } from "./providers/auth/Provider"
 import useNav from "./ui/navigation/useNav"

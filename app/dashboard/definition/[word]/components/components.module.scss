@@ -40,6 +40,18 @@
   flex-direction: column;
 }
 
+.alsoTitle {
+  margin-top: 5pt;
+  font-style: italic;
+  color: var(--foreground-color);
+  margin-left: 5pt;
+}
+
+.alsoText {
+  color: var(--foreground-color-2);
+  margin-left: 10pt;
+}
+
 .unsText {
   margin-left: 5pt;
   margin-top: 2pt;

@@ -1,6 +1,7 @@
 @use '../../../mixins' as *;
 
 .main {
+  background-color: var(--background-secondary-color);
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -12,11 +13,17 @@
     flex-direction: row;
     justify-content: space-between;
     height: auto;
+    padding: 2pt 5pt;
   }
 }
 
 .logo {
   margin-bottom: 20pt;
+
+  @include mobile {
+    align-self: center;
+    margin-bottom: 0pt;
+  }
 }
 
 .mobileSpacer {
@@ -36,7 +43,7 @@
   outline: none;
   box-shadow: none;
   text-shadow: none;
-  padding: 5pt;
+  // padding: 5pt;
 }
 
 .signoutButton:hover {

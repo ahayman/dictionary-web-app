@@ -1,0 +1,1272 @@
+[
+  {
+    "meta": {
+      "id": "green:1",
+      "uuid": "74e90c0e-8716-4e38-a75d-97c684f08b60",
+      "sort": "072381000",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "green",
+        "green around the gills",
+        "greener",
+        "greenest",
+        "greenish",
+        "greenishness",
+        "greenishnesses",
+        "greenlier",
+        "greenliest",
+        "greenly",
+        "greenness",
+        "greennesses"
+      ],
+      "offensive": false
+    },
+    "hom": 1,
+    "hwi": {
+      "hw": "green",
+      "prs": [
+        {
+          "mw": "ˈgrēn",
+          "sound": {
+            "audio": "green001",
+            "ref": "c",
+            "stat": "1"
+          }
+        }
+      ]
+    },
+    "fl": "adjective",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}of the color green"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2 a",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}covered by green growth or foliage "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "{wi}green{/wi} fields"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}consisting of green plants and usually edible herbage "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "a {wi}green{/wi} salad"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "c",
+                "sls": [
+                  "of winter"
+                ],
+                "dt": [
+                  [
+                    "text",
+                    "{bc}{sx|mild||}, {sx|clement||}"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "3 a",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}{sx|envious||1} "
+                  ],
+                  [
+                    "uns",
+                    [
+                      [
+                        [
+                          "text",
+                          "used especially in the phrase {it}green with envy{/it}"
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}marked by a pale, sickly, or nauseated appearance"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "4",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}not ripened or matured "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "{wi}green{/wi} peaches"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "5 a",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}deficient in training, knowledge, or experience "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "{wi}green{/wi} recruits"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}deficient in sophistication and savoir faire {bc}{sx|naive||} "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "was {wi}green{/wi} and credulous"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "c",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}not fully qualified for or experienced in a particular function"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "6",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}{sx|youthful||}, {sx|vigorous||}"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "7",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}{sx|fresh||}, {sx|new||}"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "8 a",
+                "lbs": [
+                  "often capitalized"
+                ],
+                "dt": [
+                  [
+                    "text",
+                    "{bc}relating to or being an environmentalist political movement"
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}concerned with or supporting environmentalism "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "{wi}green{/wi} consumers who practice recycling"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "c",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}tending to preserve environmental quality (as by being recyclable, biodegradable, or nonpolluting) "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "{wi}greener{/wi} energy solutions"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "9",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}pleasantly alluring"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "pseq",
+              [
+                [
+                  "bs",
+                  {
+                    "sense": {
+                      "sn": "10 a",
+                      "dt": [
+                        [
+                          "text",
+                          "{bc}not fully processed or treated: such as"
+                        ]
+                      ]
+                    }
+                  }
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "(1)",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}freshly sawed "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "{wi}green{/wi} lumber"
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "(2)",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}not aged "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "{wi}green{/wi} liquor"
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "(3)",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}not dressed or tanned "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "{wi}green{/wi} hides"
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}not in condition for a particular use"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "uros": [
+      {
+        "ure": "green*ish",
+        "prs": [
+          {
+            "mw": "ˈgrē-nish",
+            "sound": {
+              "audio": "green002",
+              "ref": "c",
+              "stat": "1"
+            }
+          }
+        ],
+        "fl": "adjective"
+      },
+      {
+        "ure": "green*ish*ness",
+        "fl": "noun"
+      },
+      {
+        "ure": "green*ly",
+        "fl": "adverb"
+      },
+      {
+        "ure": "green*ness",
+        "prs": [
+          {
+            "mw": "ˈgrē(n)-nəs",
+            "sound": {
+              "audio": "green003",
+              "ref": "c",
+              "stat": "1"
+            }
+          }
+        ],
+        "fl": "noun"
+      }
+    ],
+    "dros": [
+      {
+        "drp": "green around the gills",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}pale or sickly in appearance"
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "et": [
+      [
+        "text",
+        "Middle English {it}grene{/it}, from Old English {it}grēne{/it}; akin to Old English {it}grōwan{/it} to grow"
+      ]
+    ],
+    "date": "before 12th century{ds||1||}",
+    "shortdef": [
+      "of the color green",
+      "covered by green growth or foliage",
+      "consisting of green plants and usually edible herbage"
+    ]
+  },
+  {
+    "meta": {
+      "id": "green:2",
+      "uuid": "5ad9cf57-5581-4a9d-81d9-91017c9bbca7",
+      "sort": "072382000",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "green",
+        "greenier",
+        "greeniest",
+        "greens",
+        "greeny",
+        "Green",
+        "Greens"
+      ],
+      "offensive": false
+    },
+    "hom": 2,
+    "hwi": {
+      "hw": "green"
+    },
+    "fl": "noun",
+    "ins": [
+      {
+        "il": "plural",
+        "if": "greens"
+      }
+    ],
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a color whose hue is somewhat less yellow than that of growing fresh grass or of the emerald or is that of the part of the spectrum lying between blue and yellow"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}something of a green color"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "bs",
+              {
+                "sense": {
+                  "sn": "3",
+                  "dt": [
+                    [
+                      "text",
+                      "{bc}green vegetation: such as"
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "sen",
+              {
+                "sn": "a",
+                "ins": [
+                  {
+                    "if": "greens",
+                    "spl": "plural"
+                  }
+                ]
+              }
+            ],
+            [
+              "pseq",
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "(1)",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}leafy herbs (such as spinach, dandelions, or Swiss chard) that are cooked as a vegetable"
+                      ]
+                    ]
+                  }
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "(2)",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}{sx|green vegetables||}"
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "ins": [
+                  {
+                    "if": "greens",
+                    "spl": "plural"
+                  }
+                ],
+                "dt": [
+                  [
+                    "text",
+                    "{bc}leafy parts of plants for use as decoration"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "bs",
+              {
+                "sense": {
+                  "sn": "4",
+                  "dt": [
+                    [
+                      "text",
+                      "{bc}an area consisting of or resembling grass: such as"
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "a",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a usually grassy park or common in the center of a town or village "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "Mashpee, Massachusetts has a new town {wi}green{/wi}, complete with bandstand.",
+                        "aq": {
+                          "auth": "Alan D. Haas"
+                        }
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}{sx|putting green||}"
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "c",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}{sx|bowling green||}"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "5",
+                "sls": [
+                  "informal"
+                ],
+                "dt": [
+                  [
+                    "text",
+                    "{bc}{sx|money||}"
+                  ]
+                ],
+                "sdsense": {
+                  "sd": "especially",
+                  "dt": [
+                    [
+                      "text",
+                      "{bc}U.S. paper money {bc}{sx|greenbacks||}"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "6",
+                "vrs": [
+                  {
+                    "vl": "or",
+                    "va": "Green"
+                  }
+                ],
+                "dt": [
+                  [
+                    "text",
+                    "{bc}{sx|environmentalist||}"
+                  ]
+                ],
+                "sdsense": {
+                  "sd": "especially",
+                  "dt": [
+                    [
+                      "text",
+                      "{bc}a member of an activist political party focusing on environmental and social issues"
+                    ]
+                  ]
+                }
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "7",
+                "sls": [
+                  "physics"
+                ],
+                "dt": [
+                  [
+                    "text",
+                    "{bc}one of the three colors {dx_def}see {dxt|color:1||15}{/dx_def} that quarks have in the theory of {d_link|quantum chromodynamics|quantum chromodynamics} "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "Whereas there is just one kind of electric charge, however, there are three kinds of color charge, usually called red, blue and {wi}green{/wi}. (The names, of course, have nothing to do with colors in the everyday sense.)",
+                        "aq": {
+                          "auth": "Elliott D. Bloom and Gary J. Feldman"
+                        }
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "uros": [
+      {
+        "ure": "greeny",
+        "prs": [
+          {
+            "mw": "ˈgrē-nē",
+            "sound": {
+              "audio": "green004",
+              "ref": "c",
+              "stat": "1"
+            }
+          }
+        ],
+        "fl": "adjective"
+      }
+    ],
+    "et": [
+      [
+        "text",
+        "{dx_ety}see {dxt|green:1||}{/dx_ety}"
+      ]
+    ],
+    "date": "before 12th century{ds||3||}",
+    "shortdef": [
+      "a color whose hue is somewhat less yellow than that of growing fresh grass or of the emerald or is that of the part of the spectrum lying between blue and yellow",
+      "something of a green color",
+      "green vegetation: such as"
+    ]
+  },
+  {
+    "meta": {
+      "id": "green:3",
+      "uuid": "0ab8e411-35ec-4cc8-88e6-5f76dc46f215",
+      "sort": "072383000",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "green",
+        "greened",
+        "greening",
+        "greens"
+      ],
+      "offensive": false
+    },
+    "hom": 3,
+    "hwi": {
+      "hw": "green"
+    },
+    "fl": "verb",
+    "ins": [
+      {
+        "if": "greened"
+      },
+      {
+        "if": "green*ing"
+      },
+      {
+        "if": "greens"
+      }
+    ],
+    "def": [
+      {
+        "vd": "transitive verb",
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}to make {d_link|green|green:1}"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}{sx|rejuvenate||}, {sx|revitalize||}"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      },
+      {
+        "vd": "intransitive verb",
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}to become {d_link|green|green:1}"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "et": [
+      [
+        "text",
+        "{dx_ety}see {dxt|green:1||}{/dx_ety}"
+      ]
+    ],
+    "date": "before 12th century{ds|i|||}",
+    "shortdef": [
+      "to make green",
+      "rejuvenate, revitalize",
+      "to become green"
+    ]
+  },
+  {
+    "meta": {
+      "id": "Green:b1",
+      "uuid": "a2acec22-3b5c-4971-ba7f-e05b1ebe9830",
+      "sort": "302400000",
+      "src": "collegiate",
+      "section": "biog",
+      "stems": [
+        "Green",
+        "Julian Green",
+        "Julian Hartridge Green",
+        "Julien Green",
+        "Julien Hartridge Green",
+        "Julien Julian Green"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "Green"
+    },
+    "fl": "biographical name",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "Julien {it}or{/it} Julian 1900–1998 French novelist"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "shortdef": [
+      "Julien or Julian 1900—1998 French novelist"
+    ]
+  },
+  {
+    "meta": {
+      "id": "Green:b2",
+      "uuid": "3b04de62-9ca2-4e4d-92a3-194edcedfcf9",
+      "sort": "302401000",
+      "src": "collegiate",
+      "section": "biog",
+      "stems": [
+        "Green",
+        "William Green"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "Green"
+    },
+    "fl": "biographical name",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "William 1873–1952 American labor leader"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "shortdef": [
+      "William 1873—1952 American labor leader"
+    ]
+  },
+  {
+    "meta": {
+      "id": "Green:g",
+      "uuid": "e4c5c1d8-70b0-4a69-b6af-6d9bf9de7ad7",
+      "sort": "273142000",
+      "src": "collegiate",
+      "section": "geog",
+      "stems": [
+        "Green"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "Green",
+      "prs": [
+        {
+          "mw": "ˈgrēn",
+          "sound": {
+            "audio": "gggree05",
+            "ref": "c",
+            "stat": "1"
+          }
+        }
+      ]
+    },
+    "fl": "geographical name",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1",
+                "dt": [
+                  [
+                    "text",
+                    "river 730 miles (1175 kilometers) long in the western U.S. flowing from the Wind River Range in western Wyoming south into the Colorado River in southeastern Utah"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2",
+                "dt": [
+                  [
+                    "text",
+                    "city in northeastern Ohio south of Akron {it}population{/it} 22,817"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "shortdef": [
+      "river 730 miles (1175 kilometers) long in the western U.S. flowing from the Wind River Range in western Wyoming south into the Colorado River in southeastern Utah",
+      "city in northeastern Ohio south of Akron population 22,817"
+    ]
+  },
+  {
+    "meta": {
+      "id": "green alga",
+      "uuid": "46199129-3097-458c-8ff5-6c66d9aabb86",
+      "sort": "072384000",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "green alga",
+        "green algae",
+        "green algas"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "green alga"
+    },
+    "fl": "noun",
+    "ins": [
+      {
+        "il": "plural",
+        "if": "green algae"
+      },
+      {
+        "il": "also",
+        "if": "green algas"
+      }
+    ],
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}any of a division (Chlorophyta) of green-colored algae that have chloroplasts and occur especially in fresh water"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "date": "1843",
+    "shortdef": [
+      "any of a division (Chlorophyta) of green-colored algae that have chloroplasts and occur especially in fresh water"
+    ]
+  },
+  {
+    "meta": {
+      "id": "green anole",
+      "uuid": "cab7a436-aebd-4f7d-8705-54dcf53db35f",
+      "sort": "072384500",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "green anole",
+        "green anoles"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "green anole"
+    },
+    "fl": "noun",
+    "ins": [
+      {
+        "il": "plural",
+        "if": "green anoles"
+      }
+    ],
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}an {d_link|anole|anole} ({it}Anolis carolinensis{/it}) of the southeastern U.S. that can vary its skin color from green to brown and is often kept as a pet "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "The true chameleon and the {wi}green anole{/wi} have much in common. They are both lizards. Most species live in trees or bushes, subsisting mainly on insects. Both can change color, although the anole's ability to do so is considerably more limited than the chameleon's.",
+                        "aq": {
+                          "auth": "David Crews"
+                        }
+                      }
+                    ]
+                  ],
+                  [
+                    "ca",
+                    {
+                      "intro": "called also",
+                      "cats": [
+                        {
+                          "cat": "American chameleon"
+                        },
+                        {
+                          "cat": "Carolina anole"
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "art": {
+      "artid": "amer_cha",
+      "capt": "green anole"
+    },
+    "date": "1934",
+    "shortdef": [
+      "an anole (Anolis carolinensis) of the southeastern U.S. that can vary its skin color from green to brown and is often kept as a pet —called also American chameleon, Carolina anole"
+    ]
+  },
+  {
+    "meta": {
+      "id": "green bean",
+      "uuid": "629a781a-c50f-45ae-9376-86f94acd07a7",
+      "sort": "072387000",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "green bean",
+        "green beans"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "green bean"
+    },
+    "fl": "noun",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a kidney bean that is used as a snap bean when the pods are colored green"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "date": "1526",
+    "shortdef": [
+      "a kidney bean that is used as a snap bean when the pods are colored green"
+    ]
+  },
+  {
+    "meta": {
+      "id": "Green Beret",
+      "uuid": "0e2f4fa4-4be5-4e88-9f29-9327c5a9cf99",
+      "sort": "072389000",
+      "src": "collegiate",
+      "section": "alpha",
+      "stems": [
+        "Green Beret",
+        "Green Berets"
+      ],
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "Green Beret"
+    },
+    "fl": "noun",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a member of the U.S. Army Special Forces"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "et": [
+      [
+        "text",
+        "from the beret worn by Special Forces soldiers"
+      ]
+    ],
+    "date": "1949",
+    "shortdef": [
+      "a member of the U.S. Army Special Forces"
+    ]
+  }
+]

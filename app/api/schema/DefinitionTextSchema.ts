@@ -1,9 +1,10 @@
-import { Type, type Static } from "@sinclair/typebox"
+import { Literal, Type, type Static } from "@sinclair/typebox"
 import { VerbalIllustrationSchema } from "./VerbalIllustrationSchema"
 import { BiographicalNameWrapSchema } from "./BiographicalNameWrapSchema"
 import { RunInEntrySchema } from "./RunInEntrySchema"
 import { SupplimentalNoteSchema } from "./SupplimentalNoteSchema"
 import { UsageNoteSchema } from "./UsageNoteSchema"
+import { CalledAlsoSchema } from "./CalledAlsoSchema"
 
 export const DefinitionTextItemSchema = Type.Tuple(
   [Type.Literal("text"), Type.String({ description: "Definition Text" })],
@@ -59,6 +60,12 @@ export const DefinitionTextSnoteSchema = Type.Tuple(
 )
 export type DefinitionTextSnote = Static<typeof DefinitionTextSnoteSchema>
 
+export const DefinitionTextCASchema = Type.Tuple([
+  Literal("ca"),
+  CalledAlsoSchema,
+])
+export type DefinitionTextCA = Static<typeof DefinitionTextCASchema>
+
 export const DefinitionTextUsageNoteSchema = Type.Tuple(
   [
     Type.Literal("uns"),
@@ -88,6 +95,7 @@ export const DefinitionTextSchema = Type.Array(
     DefinitionTextRunInSchema,
     DefinitionTextSnoteSchema,
     DefinitionTextUsageNoteSchema,
+    DefinitionTextCASchema,
   ])
 )
 

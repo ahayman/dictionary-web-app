@@ -1,6 +1,8 @@
+import { CalledAlso } from "@/app/api/schema/CalledAlsoSchema"
 import s from "./components.module.scss"
 import {
   DefinitionTextBNW,
+  DefinitionTextCA,
   DefinitionTextItem,
   DefinitionTextRunIn,
   DefinitionTextSnote,
@@ -22,6 +24,7 @@ export type DefinitionText =
   | DefinitionTextBNW
   | SuppplimentalNote
   | RunInEntry
+  | DefinitionTextCA
 
 export type Props = {
   parentKey: string
@@ -86,5 +89,18 @@ export default function DefinitionTextView({ dt, parentKey, isUns }: Props) {
           ))}
         </div>
       )
+    case "ca": {
+      const ca = dt[1]
+      return (
+        <div>
+          <p className={s.alsoTitle}>{ca.intro}</p>
+          {ca.cats.map((cat, idx) => (
+            <p key={[parentKey, "ca", idx].join("-")} className={s.alsoText}>
+              • {cat.cat}
+            </p>
+          ))}
+        </div>
+      )
+    }
   }
 }
