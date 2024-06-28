@@ -26,6 +26,7 @@
 .bottomNav {
   display: none;
   height: auto;
+  margin-bottom: env(safe-area-inset-bottom);
   width: 100%;
 
   @include mobile {
