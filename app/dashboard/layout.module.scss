@@ -31,6 +31,10 @@
 
   @include mobile {
     display: block;
+    position: absolute;
+    left: 0pt;
+    right: 0pt;
+    bottom: env(safe-area-inset-bottom);
   }
 }
 

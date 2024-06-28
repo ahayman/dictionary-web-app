@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 import { PulseLoader } from "react-spinners"
-import styles from "./auth.module.css"
+import styles from "./auth.module.scss"
 import useViewModel from "./useViewModel"
 import { FormEvent, useContext } from "react"
 import { ThemeContext } from "../providers/theme/Provider"
