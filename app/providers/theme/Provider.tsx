@@ -1,5 +1,11 @@
 "use client"
-import { createContext, ReactNode, useCallback, useState } from "react"
+import {
+  createContext,
+  ReactNode,
+  useCallback,
+  useEffect,
+  useState,
+} from "react"
 import { Context, Theme } from "./types"
 import { Storage } from "@/app/utils/Storage"
 
@@ -21,10 +27,13 @@ const getSetInitial = (): Theme => {
     const prefersDark = window.matchMedia(
       "(prefers-color-scheme: dark)"
     ).matches
-    return prefersDark ? "dark" : "light"
+    const theme = prefersDark ? "dark" : "light"
+    document.documentElement.setAttribute("data-theme", theme)
+    return theme
+  } else {
+    document.documentElement.setAttribute("data-theme", value)
+    return value
   }
-  document.documentElement.setAttribute("data-theme", value)
-  return value
 }
 
 export default function Provider({ children }: Props) {
@@ -38,6 +47,9 @@ export default function Provider({ children }: Props) {
     document.documentElement.setAttribute("data-theme", newTheme)
     setTheme(newTheme)
   }, [theme])
+
+  // There's probably a better way to do this.
+  useEffect(() => document.documentElement.setAttribute("data-theme", theme))
 
   return (
     <ThemeContext.Provider value={[{ theme }, { toggleTheme }]}>
