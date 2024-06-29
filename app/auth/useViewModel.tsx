@@ -1,6 +1,6 @@
 "use client"
 
-import { useCallback, useContext, useMemo, useState } from "react"
+import { useCallback, useContext, useState } from "react"
 import { AuthContext } from "../providers/auth/Provider"
 import useNav from "../ui/navigation/useNav"
 
@@ -25,8 +25,12 @@ export default function useViewModel(): [ViewState, ViewActions] {
 
   const setApiKeyEntry = useCallback(setApiEntry, [setApiEntry])
   const submitApiKeyEntry = useCallback(async () => {
-    setError(undefined)
     if (loading) return
+    if (!apiKeyEntry) {
+      setError("Please enter an API key")
+      return
+    }
+    setError(undefined)
     setLoading(true)
     const url = `https://www.dictionaryapi.com/api/v3/references/collegiate/json/login?key=${apiKeyEntry}`
     try {
@@ -45,18 +49,8 @@ export default function useViewModel(): [ViewState, ViewActions] {
     setLoading(false)
   }, [apiKeyEntry, loading, nav, setAPIKey])
 
-  return useMemo(
-    () => [
-      { currentApiKey, apiKeyEntry, loading, error },
-      { setApiKeyEntry, submitApiKeyEntry },
-    ],
-    [
-      apiKeyEntry,
-      currentApiKey,
-      error,
-      loading,
-      setApiKeyEntry,
-      submitApiKeyEntry,
-    ]
-  )
+  return [
+    { currentApiKey, apiKeyEntry, loading, error },
+    { setApiKeyEntry, submitApiKeyEntry },
+  ]
 }

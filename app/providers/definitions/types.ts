@@ -24,7 +24,6 @@ export type WordMetaCache = { [word: string]: WordDefMeta | undefined }
 export type State = {
   recent: string[]
   favorites: WordDefMeta[]
-  popular: WordDefMeta[]
   cache: WordDefinitionCache
   metaCache: WordMetaCache
   currentWord?: string

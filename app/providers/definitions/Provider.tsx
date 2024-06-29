@@ -8,16 +8,15 @@ import {
 } from "react"
 import {
   Context,
-  State,
   WordDefMeta,
   WordDefinition,
   WordMetaCache,
   WordSearchResult,
 } from "./types"
-import { Storage } from "@/app/utils/Storage"
 import { Reducer } from "./Reducer"
 import { APIContext } from "../api/Provider"
 import { AuthContext } from "../auth/Provider"
+import { StorageContext } from "../storage/Provider"
 
 export const DefinitionsContext = createContext<Context>([] as any)
 
@@ -25,53 +24,36 @@ export type Props = {
   children: ReactNode
 }
 
-export const GetStoredFavorites = (): WordDefMeta[] => {
-  const json = Storage.get("favorite-words")
-  if (json === undefined) return []
-  const meta: WordDefMeta[] = JSON.parse(json)
-  return meta
+export const favoritesFromString = (json?: string): WordDefMeta[] => {
+  if (!json) return []
+  return JSON.parse(json)
 }
 
-export const GetStoredRecent = (): string[] => {
-  const json = Storage.get("recent-words")
-  if (json === undefined) return []
-  let data = JSON.parse(json) as any[]
-  if (data.length > 0 && typeof data[0] === "object") {
-    data = data.map((d) => d.word)
-  }
-  return data
-}
-
-const InitialState: State = {
-  recent: [],
-  favorites: [],
-  popular: [],
-  cache: {},
-  metaCache: {},
-}
-
-const getInitialStateFromStorage = (): State => {
-  const recent = GetStoredRecent()
-  const favorites = GetStoredFavorites()
-  const metaCache: WordMetaCache = {}
-  favorites.forEach((m) => (metaCache[m.word] = m))
-  return {
-    recent,
-    favorites,
-    currentWord: Storage.get("current-word"),
-    popular: [],
-    cache: {},
-    metaCache,
-  }
+export const recentFromString = (json?: string): string[] => {
+  if (!json) return []
+  return JSON.parse(json)
 }
 
 export default function Provider({ children }: Props) {
+  const [{ get, set, clear }] = useContext(StorageContext)
   const { getWordDefinition } = useContext(APIContext)
   const [{ apiKey }] = useContext(AuthContext)
   const [state, dispatch] = useReducer(
     Reducer,
     typeof window === "undefined",
-    (isServer) => (isServer ? InitialState : getInitialStateFromStorage())
+    () => {
+      const recent = recentFromString(get("recent-words"))
+      const favorites = favoritesFromString(get("favorite-words"))
+      const metaCache: WordMetaCache = {}
+      favorites.forEach((m) => (metaCache[m.word] = m))
+      return {
+        recent,
+        favorites,
+        currentWord: get("current-word"),
+        cache: {},
+        metaCache,
+      }
+    }
   )
 
   const searchWordDefinition = useCallback(
@@ -134,30 +116,37 @@ export default function Provider({ children }: Props) {
     })
   }, [])
 
-  const setCurrentWord = useCallback((word?: string) => {
-    dispatch({ type: "set-current-word", word })
-    Storage.set("current-word", word)
-  }, [])
+  const setCurrentWord = useCallback(
+    (word?: string) => {
+      dispatch({ type: "set-current-word", word })
+      if (word) {
+        set("current-word", word)
+      } else {
+        clear("current-word")
+      }
+    },
+    [set, clear]
+  )
 
   const removeRecentWord = useCallback((word: string) => {
     dispatch({ type: "remove-recent-word", word })
   }, [])
 
   useEffect(() => {
-    Storage.set("favorite-words", JSON.stringify(state.favorites))
-  }, [state.favorites])
+    set("favorite-words", JSON.stringify(state.favorites))
+  }, [state.favorites, set])
 
   useEffect(() => {
-    Storage.set("recent-words", JSON.stringify(state.recent))
-  }, [state.recent])
+    set("recent-words", JSON.stringify(state.recent))
+  }, [state.recent, set])
 
   useEffect(() => {
     if (apiKey === undefined) {
-      Storage.set("recent-words")
-      Storage.set("favorite-words")
-      Storage.set("current-word")
+      clear("recent-words")
+      clear("favorite-words")
+      clear("current-word")
     }
-  }, [apiKey])
+  }, [apiKey, clear])
 
   return (
     <DefinitionsContext.Provider
