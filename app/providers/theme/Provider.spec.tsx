@@ -149,4 +149,29 @@ describe("ThemeProvider", () => {
     expect(themeSpy).toBe("light")
     expect(storageStateMock[0].set).toHaveBeenCalledWith("data-theme", "light")
   })
+
+  it("should set the document element attribute on toggle", () => {
+    let themeSpy: Theme | undefined
+    let toggleSpy: () => void = () => {}
+    const setAttributeMock = jest.fn()
+    document.documentElement.setAttribute = setAttributeMock
+    const Test = () => {
+      const [{ theme }, { toggleTheme }] = useContext(ThemeContext)
+      themeSpy = theme
+      toggleSpy = toggleTheme
+      return <></>
+    }
+    const layout = (
+      <MockProvider context={StorageContext} state={storageStateMock}>
+        <ThemeProvider>
+          <Test />
+        </ThemeProvider>
+      </MockProvider>
+    )
+    const result = render(layout)
+    act(toggleSpy)
+    result.rerender(layout)
+    expect(themeSpy).toBe("light")
+    expect(setAttributeMock).toHaveBeenCalledWith("data-theme", "light")
+  })
 })

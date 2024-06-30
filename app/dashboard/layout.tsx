@@ -6,6 +6,10 @@ type Props = {
   children: React.ReactNode
 }
 
+/**
+ * Dashboard layout includes a sidenav for desktop layout, and a bottom nav
+ * for mobile layouts. See layout.module.scss for more details.
+ */
 export default function DashboardLayout({ children }: Props) {
   return (
     <>

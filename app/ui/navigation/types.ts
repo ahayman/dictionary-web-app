@@ -40,5 +40,8 @@ export interface NavInstance {
    */
   replace(route: NavRoute): void
 
+  /**
+   * Generate a href string from a provided route.
+   */
   routeHref(route: NavRoute): string
 }

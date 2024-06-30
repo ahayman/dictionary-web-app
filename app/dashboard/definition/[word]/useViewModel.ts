@@ -1,8 +1,23 @@
 import useNav from "@/app/ui/navigation/useNav"
 import { DefinitionsContext } from "@/app/providers/definitions/Provider"
 import { WordDefinition } from "@/app/providers/definitions/types"
-import { useCallback, useContext, useEffect, useMemo, useState } from "react"
+import {
+  useCallback,
+  useContext,
+  useEffect,
+  useMemo,
+  useReducer,
+  useRef,
+  useState,
+} from "react"
+import { useParams } from "next/navigation"
 
+/**
+ * When retrieving a definition, we can get back the definition or
+ * a list of alternatives. Alternatives should only be returned if a user
+ * manually navigates to this page.  In-app navigations should only occur for
+ * known words.
+ */
 export type DefinitionResponse =
   | {
       type: "definition"
@@ -14,21 +29,51 @@ export type DefinitionResponse =
       word: string
     }
 
+//There should only be one word. This is the way
+const wordFromParams = (word: string | string[]) =>
+  decodeURIComponent(word instanceof Array ? word.join("_") : word)
+
 export type ViewState = {
+  /**
+   * `word`: The word in question, retrieved from the page params.
+   */
   word: string
+  /**
+   * `definition`: The definition response, retrieved from cache or api.
+   */
   definition?: DefinitionResponse
+  /**
+   * `loading`: Used if a definition isn't in cache, while being retrieved from the api.
+   */
   loading: boolean
+  /**
+   * `isFavorite`: the word's favorited status.
+   */
   isFavorite: boolean
+  /**
+   * `error`: If retrieving a definition results in an error.
+   */
   error?: string
 }
 
 export type ViewActions = {
+  /**
+   * Refresh the definition
+   */
   refresh: () => Promise<void>
+  /**
+   * If an alt list is provided, this selects the word and navigates to that definition.
+   */
   selectAlternative: (word: string) => void
+  /**
+   *  Toggle the favorite status of the word.
+   */
   toggleFavorite: () => void
 }
 
-export default function useViewModel(word: string): [ViewState, ViewActions] {
+export default function useViewModel(): [ViewState, ViewActions] {
+  const { word: paramWord } = useParams()
+  const word = useRef(wordFromParams(paramWord)).current
   const nav = useNav()
   const [
     { cache, favorites },

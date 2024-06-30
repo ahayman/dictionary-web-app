@@ -38,6 +38,9 @@
   background-color: var(--background-secondary-color);
   padding: 10pt;
   margin-bottom: 2pt;
+  @include mobile {
+    padding: 5pt;
+  }
 }
 
 .title {

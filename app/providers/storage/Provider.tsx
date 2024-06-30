@@ -7,6 +7,10 @@ export type Props = {
   children: ReactNode
 }
 
+/**
+ * Provides a way to store and retrieve persisted data.
+ * Also provides logic to ensure this is not done on a server render.
+ */
 export default function Provider({ children }: Props) {
   const isServer = useMemo(() => typeof window === "undefined", [])
 

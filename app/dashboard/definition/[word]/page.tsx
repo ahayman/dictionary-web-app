@@ -1,7 +1,6 @@
 "use client"
 
 import s from "./page.module.scss"
-import { useParams } from "next/navigation"
 import useViewModel, { DefinitionResponse } from "./useViewModel"
 import WordListView from "../../components/WordListView"
 import { StarIcon as OutlineStarIcon } from "@heroicons/react/24/outline"
@@ -9,16 +8,11 @@ import { StarIcon as SolidStarIcon } from "@heroicons/react/24/solid"
 import WordDefinitionView from "./components/WordDefinitionView"
 import { cat } from "@/app/utils/cat"
 
-//There should only be one word. This is the way
-const wordFromParams = (word: string | string[]) =>
-  word instanceof Array ? word.join("_") : word
-
 export default function DefinitionsPage() {
-  const { word } = useParams()
   const [
-    { error, definition, isFavorite },
+    { error, definition, isFavorite, word },
     { selectAlternative, toggleFavorite },
-  ] = useViewModel(wordFromParams(word))
+  ] = useViewModel()
 
   const definitionView = (def?: DefinitionResponse) => {
     if (!def) return null

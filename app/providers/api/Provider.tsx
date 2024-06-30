@@ -13,6 +13,10 @@ export type Props = {
   children: ReactNode
 }
 
+/**
+ * Primary API Provider. Contains no state except for the actions
+ * of the api client.
+ */
 export default function Provider({ children }: Props) {
   const [{ apiKey }] = useContext(AuthContext)
 

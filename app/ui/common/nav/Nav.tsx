@@ -23,14 +23,16 @@ export default function Nav() {
 
   return (
     <div className={s.main}>
-      <Image
-        src="/logox1200.png"
-        alt="Merriam Webster Logo"
-        className={s.logo}
-        width={50}
-        height={50}
-        priority
-      />
+      <a href="https://www.merriam-webster.com/" target="_blank">
+        <Image
+          src="/logox1200.png"
+          alt="Merriam Webster Logo"
+          className={s.logo}
+          width={50}
+          height={50}
+          priority
+        />
+      </a>
 
       <div className={s.mobileSpacer} />
 

@@ -4,6 +4,14 @@ import { useCallback, useContext, useState } from "react"
 import { AuthContext } from "../providers/auth/Provider"
 import useNav from "../ui/navigation/useNav"
 
+/**
+ * State used by the auth page.
+ * - `currentAPIKey`: the currently set api key.
+ *   This is only displayed if the auth page is navigated to directly.
+ * - `apiKeyEntry`: string value entered into the view's input.
+ * - `loading`: True when checking an api key.
+ * - `error`: Displayed when submitting an api key incurs an error.
+ */
 export type ViewState = {
   currentApiKey?: string
   apiKeyEntry: string
@@ -12,7 +20,13 @@ export type ViewState = {
 }
 
 export type ViewActions = {
+  /**
+   * Update the backing state for the api entry
+   */
   setApiKeyEntry: (entry: string) => void
+  /**
+   * Submit the currently entered api input.
+   */
   submitApiKeyEntry: () => Promise<void>
 }
 

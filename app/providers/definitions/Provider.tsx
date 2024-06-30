@@ -24,16 +24,21 @@ export type Props = {
   children: ReactNode
 }
 
-export const favoritesFromString = (json?: string): WordDefMeta[] => {
-  if (!json) return []
-  return JSON.parse(json)
-}
+//Convenience function pure for typing
+export const favoritesFromString = (json?: string): WordDefMeta[] =>
+  json ? JSON.parse(json) : []
 
-export const recentFromString = (json?: string): string[] => {
-  if (!json) return []
-  return JSON.parse(json)
-}
+//Convenience function pure for typing
+export const recentFromString = (json?: string): string[] =>
+  json ? JSON.parse(json) : []
 
+/**
+ * The Definitions Provider is responsible for managing all the cached definition,
+ * favorited words, recent word, and the last selected word.
+ * It also provides the primary method of searching for a word definition. While it's
+ * technically possible for view models to directly access the api, this is preferred as
+ * this provider will maintain a cache of definitions.
+ */
 export default function Provider({ children }: Props) {
   const [{ get, set, clear }] = useContext(StorageContext)
   const { getWordDefinition } = useContext(APIContext)

@@ -2,6 +2,10 @@ import { useRouter } from "next/navigation"
 import { NavInstance, NavRoute } from "./types"
 import { useCallback, useMemo } from "react"
 
+/**
+ * A wrapper around `useRouter()` that allows for type-safe
+ * routing.
+ */
 export default function useNav(): NavInstance {
   const router = useRouter()
 

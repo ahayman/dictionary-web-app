@@ -55,9 +55,9 @@ export default function useViewModel(): [ViewState, ViewActions] {
         currentWord
           ? {
               title:
-                currentWord.length <= 15
+                currentWord.length <= 10
                   ? currentWord
-                  : `...${currentWord.slice(0, 12)}`,
+                  : `${currentWord.slice(0, 9)}…`,
               icon: BookOpenIcon,
               route: {
                 route: "definition",

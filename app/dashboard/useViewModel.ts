@@ -4,20 +4,56 @@ import { useCallback, useContext, useMemo, useState } from "react"
 import useNav from "../ui/navigation/useNav"
 import { DefinitionsContext } from "../providers/definitions/Provider"
 
+/**
+ * View State used by the search page.
+ */
 export type ViewState = {
+  /**
+   * `searchEntry`: the backing state for the search input.
+   */
   searchEntry: string
+  /**
+   * `loading`: true when searching for a definition.
+   */
   loading: boolean
+  /**
+   * `altWords`: A list of alternative words when the search fails to find a definition.
+   */
   altWords?: string[]
+  /**
+   * `error`: Search error.
+   */
   error?: string
+  /**
+   * `favorites`: A list of favorites.
+   */
   favorites: string[]
+  /**
+   * `recent`: Recent searches.
+   */
   recent: string[]
 }
 
 export type ViewActions = {
+  /**
+   *  Update the backing state for search input.
+   */
   setSearchEntry: (entry: string) => void
+  /**
+   * Submit the currently entered search term.
+   */
   submitSearchEntry: () => void
+  /**
+   * Allow the user to deselect a favorite.
+   */
   setFavorite: (word: string, isFavorite: boolean) => void
+  /**
+   *  allow the user to remove a word from the recent list.
+   */
   removeRecentWord: (word: string) => void
+  /**
+   * Search for a existing word (from recent or favorites)
+   */
   selectWord: (word: string) => void
 }
 

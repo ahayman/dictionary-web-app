@@ -9,6 +9,10 @@ export type Props = {
   children: ReactNode
 }
 
+/**
+ * The auth Provides manages the credentials of the app which,
+ * at this point, only includes the api key.
+ */
 export default function Provider({ children }: Props) {
   const [{ get, set, clear }] = useContext(StorageContext)
   const nav = useNav()

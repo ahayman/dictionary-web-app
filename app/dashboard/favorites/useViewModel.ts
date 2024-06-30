@@ -4,14 +4,28 @@ import { useCallback, useContext, useState } from "react"
 import {} from "@/app/utils/ArrayExtensions"
 import useNav from "@/app/ui/navigation/useNav"
 
+/**
+ * The word, along with short defs, combined with whether it is favorited.
+ */
 export type FavoriteWordDef = WordDefMeta & { isFavorite: boolean }
 
 export type ViewState = {
+  /**
+   * The view state only needs a list of favorite words.
+   * Note: unfavoriting words does not remove them from the list.
+   *   Instead, those words are retained until the user leaves the page.
+   */
   favorites: FavoriteWordDef[]
 }
 
 export type ViewActions = {
+  /**
+   * Toggles the favorite status of a word.
+   */
   toggleFavoriteWord: (word: string) => void
+  /**
+   * Upon selection, this will navigate to the word's definition.
+   */
   selectWord: (word: string) => void
 }
 

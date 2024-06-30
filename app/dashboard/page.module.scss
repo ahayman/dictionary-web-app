@@ -75,6 +75,7 @@
   align-items: start;
 
   @include mobile {
+    margin-bottom: 3pt;
     flex-direction: column;
     justify-content: start;
     align-items: center;

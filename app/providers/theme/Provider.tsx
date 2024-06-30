@@ -23,6 +23,11 @@ const isTheme = (value: any): value is Theme => {
   return false
 }
 
+/**
+ * Provides theme information along with a way to change the theme.
+ * This not only stores/retrieves theme data, but will also set the document
+ * theme so that the UI responds appropriately.
+ */
 export default function Provider({ children }: Props) {
   const [{ getSet, set }] = useContext(StorageContext)
   const [theme, setTheme] = useState<Theme>(() => {

@@ -108,6 +108,9 @@ input[type="text"], input[type="submit"], textarea {
     font-size: 16pt;
   }
 }
+input[type="submit"]:hover {
+  cursor: pointer;
+}
 
 a {
   color: var(--link-color);
