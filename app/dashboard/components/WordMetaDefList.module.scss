@@ -9,16 +9,16 @@
   flex-direction: row;
   justify-content: start;
   align-items: center;
-  padding: 4pt 10pt;
+  padding: 4pt 0.8rem;
   background-color: var(--background-secondary-color);
-  border-radius: 10pt;
-  margin-bottom: 10pt;
+  border-radius: 0.8rem;
+  margin-bottom: 0.8rem;
 }
 
 .hr {
   background-color: var(--background-color);
   height: 2pt;
-  margin: 5pt 0pt;
+  margin: 0.5rem 0rem;
   width: 100%;
 }
 
@@ -32,16 +32,16 @@
 }
 
 .icon {
-  height: 40pt;
-  width: 40pt;
+  height: 3rem;
+  width: 3rem;
 }
 
 .iconStart {
-  margin-right: 8pt;
+  margin-right: 0.5rem;
 }
 
 .iconEnd {
-  margin-left: 8pt;
+  margin-left: 0.5rem;
 }
 
 .defHr {
@@ -52,6 +52,6 @@
 
 .defText {
   font-size: 0.7rem;
-  margin-bottom: 3pt;
-  margin-left: 8pt;
+  margin-bottom: 0.1rem;
+  margin-left: 0.5rem;
 }

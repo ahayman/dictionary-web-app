@@ -6,23 +6,23 @@
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  padding: 6pt;
+  padding: 0.5rem;
   height: 100vh;
 
   @include mobile {
     flex-direction: row;
     justify-content: space-between;
     height: auto;
-    padding: 2pt 5pt;
+    padding: 2pt 0.5rem;
   }
 }
 
 .logo {
-  margin-bottom: 20pt;
+  margin-bottom: 1rem;
 
   @include mobile {
     align-self: center;
-    margin-bottom: 0pt;
+    margin-bottom: 0rem;
   }
 }
 
@@ -43,23 +43,23 @@
   outline: none;
   box-shadow: none;
   text-shadow: none;
-  // padding: 5pt;
+  // padding: 0.5rem;
 }
 
 .signoutButton:hover {
   background-color: var(--background-color);
-  border-radius: 5pt;
+  border-radius: 0.5rem;
 }
 
 .signoutIcon {
   text-align: center;
-  width: 35pt;
-  height: 35pt;
+  width: 2rem;
+  height: 2rem;
   color: var(--foreground-color);
 
   @include mobile {
-    width: 20pt;
-    height: 20pt;
+    width: 1.5rem;
+    height: 1.5rem;
   }
 
 }
@@ -71,18 +71,18 @@
   outline: none;
   box-shadow: none;
   text-shadow: none;
-  padding: 5pt;
+  padding: 0.5rem;
 }
 
 .themeButton:hover {
   background-color: var(--background-color);
-  border-radius: 5pt;
+  border-radius: 0.5rem;
 }
 
 .themeIcon {
   text-align: center;
-  width: 20pt;
-  height: 20pt;
+  width: 1.5rem;
+  height: 1.5rem;
   color: var(--foreground-color);
 }
 
@@ -90,7 +90,7 @@
   height: 1pt;
   background-color: var(--background-color);
   align-self: stretch;
-  margin: 5pt;
+  margin: 0.5rem;
 }
 
 .confirmContainer {
@@ -111,12 +111,12 @@
   outline: none;
   box-shadow: none;
   text-shadow: none;
-  padding: 5pt;
+  padding: 0.5rem;
 }
 
 .yesButton:hover {
   background-color: var(--background-color);
-  border-radius: 5pt;
+  border-radius: 0.5rem;
 }
 
 .noButton {
@@ -126,25 +126,25 @@
   outline: none;
   box-shadow: none;
   text-shadow: none;
-  padding: 5pt;
+  padding: 0.5rem;
 }
 
 .noButton:hover {
   background-color: var(--background-color);
-  border-radius: 5pt;
+  border-radius: 0.5rem;
 }
 
 .confirmYesIcon {
   text-align: center;
-  width: 20pt;
-  height: 20pt;
+  width: 1rem;
+  height: 1rem;
   color: var(--error-color);
 }
 
 .confirmNoIcon {
   text-align: center;
-  width: 20pt;
-  height: 20pt;
+  width: 1rem;
+  height: 1rem;
   color: var(--foreground-color);
 }
 

@@ -21,15 +21,19 @@ export default function FavoritesPage() {
             location: "start",
             icon: () =>
               def.isFavorite ? (
-                <SolidStarIcon
-                  onClick={() => toggleFavoriteWord(def.word)}
-                  className={cat(s.icon, s.favoriteIcon)}
-                />
+                <div className={s.iconCon}>
+                  <SolidStarIcon
+                    onClick={() => toggleFavoriteWord(def.word)}
+                    className={cat(s.icon, s.favoriteIcon)}
+                  />
+                </div>
               ) : (
-                <OutlineStarIcon
-                  onClick={() => toggleFavoriteWord(def.word)}
-                  className={cat(s.icon, s.unFavoriteIcon)}
-                />
+                <div className={s.iconCon}>
+                  <OutlineStarIcon
+                    onClick={() => toggleFavoriteWord(def.word)}
+                    className={cat(s.icon, s.unFavoriteIcon)}
+                  />
+                </div>
               ),
           })}
         />

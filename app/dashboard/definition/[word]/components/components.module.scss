@@ -5,12 +5,12 @@
   flex-direction: column;
   justify-content: start;
   align-items: start;
-  border-radius: 5pt;
+  border-radius: 0.5rem;
   background-color: var(--background-secondary-color);
-  padding: 10pt;
+  padding: 0.8rem;
 
   @include mobile {
-    padding: 0pt;
+    padding: 0rem;
     background-color: transparent;
   }
 }
@@ -20,20 +20,20 @@
 }
 
 .flTitle {
-  margin-right: 5pt;
+  margin-right: 0.5rem;
 }
 
 .sn {
   text-align: end;
-  margin-top: 4pt;
-  margin-right: 5pt;
-  width: 20pt;
+  margin-top: 0.1rem;
+  margin-right: 0.5rem;
+  width: 1.2rem;
   color: var(--foreground-color-2)
 }
 
 .vis {
-  margin-left: 5pt;
-  margin-bottom: 2pt;
+  margin-left: 0.5rem;
+  margin-bottom: 0.1rem;
   color: var(--foreground-color-1)
 }
 
@@ -48,32 +48,32 @@
 }
 
 .alsoTitle {
-  margin-top: 5pt;
+  margin-top: 0.5rem;
   font-style: italic;
   color: var(--foreground-color);
-  margin-left: 5pt;
+  margin-left: 0.5rem;
 }
 
 .alsoText {
   color: var(--foreground-color-2);
-  margin-left: 10pt;
+  margin-left: 0.8rem;
 }
 
 .unsText {
-  margin-left: 5pt;
-  margin-top: 2pt;
+  margin-left: 0.5rem;
+  margin-top: 0.1rem;
   font-size: small;
 }
 
 .dtText {
-  margin-left: 5pt;
+  margin-left: 0.5rem;
   font-size: medium;
-  margin-top: 4pt;
+  margin-top: 0.1rem;
 }
 
 .shortDef {
   // background-color: beige;
-  margin-bottom: 3pt;
+  margin-bottom: 0.1rem;
 }
 
 .majorDescriptor {
@@ -82,16 +82,16 @@
 }
 
 .groupingContainer {
-  padding: 0pt 10pt;
+  padding: 0pt 0.8rem;
   @include mobile {
-    padding: 0pt 5pt;
+    padding: 0pt 0.5rem;
   }
 }
 
 .majorContainer {
-  padding: 10pt;
+  padding: 0.8rem;
   @include mobile {
-    padding: 5pt;
+    padding: 0.5rem;
   }
 }
 

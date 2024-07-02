@@ -30,10 +30,6 @@
 
   @include mobile {
     display: block;
-    // position: absolute;
-    // left: 0pt;
-    // right: 0pt;
-    // bottom: 0pt;
   }
 }
 
@@ -48,6 +44,6 @@
   // height: 100vh;
   overflow: scroll;
   @include mobile {
-    padding-bottom: 10pt;
+    padding-bottom: 0.8rem;
   }
 }
